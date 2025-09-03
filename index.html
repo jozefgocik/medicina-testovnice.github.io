@@ -154,14 +154,15 @@ function startApp(questions, subjectName) {
   }
 
   function handleSelect(btn, i, q) {
+    // This new version only disables the specific button you click on.
+    btn.disabled = true; 
+
     if (q.correct[i]) {
       btn.classList.add('correct');
     } else {
       btn.classList.add('wrong');
       revealCorrect(); // Show the correct answer if the user is wrong
     }
-    // Disable all options after a selection is made for the current question
-    document.querySelectorAll('.option').forEach(b => b.disabled = true);
   }
 
   function revealCorrect() {

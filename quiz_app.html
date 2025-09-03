@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="sk">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Chemia — Quiz (HTML + JSON)</title>
+<style>
+  body{font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial;max-width:900px;margin:20px auto;padding:16px;}
+  .card{border:1px solid #ddd;border-radius:8px;padding:16px;margin-bottom:12px;box-shadow:0 2px 6px rgba(0,0,0,0.04);}
+  h1{margin:0 0 12px 0;font-size:20px}
+  .options{
+    display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px;
+  }
+  button.option{padding:10px;border-radius:6px;border:1px solid #ccc;background:#fff;text-align:left;cursor:pointer}
+  button.option.correct{background:#dff0d8;border-color:#3c763d}
+  button.option.wrong{background:#f2dede;border-color:#a94442}
+  .controls{display:flex;gap:8px;align-items:center;margin-top:12px}
+  .small{font-size:13px;color:#666}
+  .muted{color:#666;font-size:13px}
+</style>
+</head>
+<body>
+<div class="card">
+  <h1>Chemia — Prezrite si otázky</h1>
+  <div class="muted">Štart: otvorte <strong>quiz_questions.json</strong> zo súboru vedľa tohto HTML. <br>
+  <strong>Dôležité:</strong> Pre správne načítanie JSON súboru môžete spustiť jednoduchý lokálny server v priečinku s týmito súbormi<br>
+  (napríklad: <code>python -m http.server 8000</code>), potom otvorte <code>http://localhost:8000/quiz_app.html</code>.</div>
+</div>
+
+<div id="app"></div>
+
+<script>
+async function loadData(){
+  try {
+    const resp = await fetch('quiz_questions.json');
+    if(!resp.ok) throw new Error('HTTP '+resp.status);
+    const data = await resp.json();
+    return data;
+  } catch(e) {
+    document.getElementById('app').innerHTML = `
+      <div class="card"><strong>Chyba pri načítaní quiz_questions.json:</strong>
+      <div class="small">${e.message}</div>
+      <p class="small">Ak nechcete spúšťať lokálny server, môžete skopírovať obsah súboru <code>quiz_questions.json</code> a vložiť sem:</p>
+      <textarea id="jsonpaste" style="width:100%;height:200px"></textarea>
+      <div style="margin-top:8px"><button id="loadpaste">Načítať vložené dáta</button></div>
+      </div>`;
+    document.getElementById('loadpaste')?.addEventListener('click', ()=>{
+      try{
+        const txt = document.getElementById('jsonpaste').value;
+        const data = JSON.parse(txt);
+        startApp(data);
+      }catch(err){ alert('Neplatný JSON: ' + err.message); }
+    });
+    throw e;
+  }
+}
+
+function startApp(questions){
+  let idx = 0;
+  const app = document.getElementById('app');
+  function render(){
+    const q = questions[idx];
+    app.innerHTML = `
+      <div class="card">
+        <div class="small">Otázka ${idx+1} z ${questions.length} — číslo v publikácii: ${q.number}</div>
+        <h2 style="margin:8px 0 0 0">${q.question}</h2>
+        <div class="options" id="opts"></div>
+        <div class="controls">
+          <button id="prev">◀️ Predošlá</button>
+          <button id="next">Ďalšia ▶️</button>
+          <div style="flex:1"></div>
+          <label class="small"><input type="checkbox" id="showCorrect"/> Ukázať správne</label>
+        </div>
+      </div>
+    `;
+    const optsDiv = document.getElementById('opts');
+    q.options.forEach((optText, i) => {
+      const btn = document.createElement('button');
+      btn.className = 'option';
+      btn.innerHTML = `<strong>${String.fromCharCode(97+i)})</strong> ${optText || ''}`;
+      btn.dataset.index = i;
+      btn.onclick = () => handleSelect(btn, i, q);
+      optsDiv.appendChild(btn);
+    });
+    document.getElementById('prev').onclick = ()=>{ if(idx>0){ idx--; render(); } };
+    document.getElementById('next').onclick = ()=>{ if(idx<questions.length-1){ idx++; render(); } };
+    document.getElementById('showCorrect').onchange = (e)=>{ if(e.target.checked) revealCorrect(); else resetStyles(); };
+  }
+
+  function handleSelect(btn, i, q){
+    const isCorrect = q.correct[i];
+    if(isCorrect){
+      btn.classList.add('correct');
+      btn.disabled = true;
+    } else {
+      btn.classList.add('wrong');
+      btn.disabled = true;
+      revealCorrect();
+    }
+  }
+
+  function revealCorrect(){
+    document.querySelectorAll('.option').forEach(b=>{
+      const i = b.dataset.index;
+      try{
+        if(questions[idx].correct[i*1]) b.classList.add('correct');
+      }catch(e){}
+    });
+  }
+
+  function resetStyles(){
+    document.querySelectorAll('.option').forEach(b=>{
+      b.classList.remove('correct','wrong');
+      b.disabled = false;
+    });
+  }
+
+  render();
+}
+
+loadData().then(data=>startApp(data)).catch(()=>{ /* handled above */ });
+</script>
+</body>
+</html>

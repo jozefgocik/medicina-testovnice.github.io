@@ -3,67 +3,114 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Chemia — Quiz (HTML + JSON)</title>
+<title>Kvíz</title>
 <style>
   body{font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial;max-width:900px;margin:20px auto;padding:16px;}
   .card{border:1px solid #ddd;border-radius:8px;padding:16px;margin-bottom:12px;box-shadow:0 2px 6px rgba(0,0,0,0.04);}
-  h1{margin:0 0 12px 0;font-size:20px}
+  h1{margin:0 0 12px 0;font-size:24px}
+  h2{margin:8px 0 0 0; font-size: 20px;}
   .options{
     display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px;
   }
-  button.option{padding:10px;border-radius:6px;border:1px solid #ccc;background:#fff;text-align:left;cursor:pointer}
+  button{cursor: pointer;}
+  button.option{padding:10px;border-radius:6px;border:1px solid #ccc;background:#fff;text-align:left;}
   button.option.correct{background:#dff0d8;border-color:#3c763d}
   button.option.wrong{background:#f2dede;border-color:#a94442}
   .controls{display:flex;gap:8px;align-items:center;margin-top:12px}
+  /* Styles for the initial subject selection buttons */
+  #selection-screen .controls button {
+    padding: 12px 24px;
+    font-size: 16px;
+    flex-grow: 1; /* Makes buttons fill the space */
+  }
   .small{font-size:13px;color:#666}
   .muted{color:#666;font-size:13px}
 </style>
 </head>
 <body>
-<div class="card">
-  <h1>Chemia — Prezrite si otázky</h1>
-  <div class="muted">Štart: otvorte <strong>quiz_questions.json</strong> zo súboru vedľa tohto HTML. <br>
-  <strong>Dôležité:</strong> Pre správne načítanie JSON súboru môžete spustiť jednoduchý lokálny server v priečinku s týmito súbormi<br>
-  (napríklad: <code>python -m http.server 8000</code>), potom otvorte <code>http://localhost:8000/quiz_app.html</code>.</div>
+
+<div id="selection-screen">
+  <div class="card">
+    <h1>Vyberte si predmet</h1>
+    <div class="controls">
+      <button id="loadChemistry">Chémia</button>
+      <button id="loadBiology">Biológia</button>
+    </div>
+  </div>
 </div>
 
-<div id="app"></div>
+<div id="app" style="display:none;"></div>
 
 <script>
-async function loadData(){
+// --- ELEMENTS ---
+const selectionScreen = document.getElementById('selection-screen');
+const appContainer = document.getElementById('app');
+const loadChemistryBtn = document.getElementById('loadChemistry');
+const loadBiologyBtn = document.getElementById('loadBiology');
+
+// --- EVENT LISTENERS ---
+loadChemistryBtn.addEventListener('click', () => {
+  // Load the chemistry JSON and start the quiz with the title "Chémia"
+  initializeQuiz('quiz_questions_ch.json', 'Chémia');
+});
+
+loadBiologyBtn.addEventListener('click', () => {
+  // Load the biology JSON and start the quiz with the title "Biológia"
+  initializeQuiz('quiz_questions_b.json', 'Biológia');
+});
+
+
+/**
+ * Loads the specified JSON file and starts the quiz app.
+ * @param {string} filename - The name of the JSON file to load.
+ * @param {string} subjectName - The name of the subject for the quiz title.
+ */
+async function initializeQuiz(filename, subjectName) {
+  // Hide the selection screen and show the app container
+  selectionScreen.style.display = 'none';
+  appContainer.style.display = 'block';
+
   try {
-    const resp = await fetch('quiz_questions.json');
-    if(!resp.ok) throw new Error('HTTP '+resp.status);
-    const data = await resp.json();
-    return data;
-  } catch(e) {
-    document.getElementById('app').innerHTML = `
-      <div class="card"><strong>Chyba pri načítaní quiz_questions.json:</strong>
-      <div class="small">${e.message}</div>
-      <p class="small">Ak nechcete spúšťať lokálny server, môžete skopírovať obsah súboru <code>quiz_questions.json</code> a vložiť sem:</p>
-      <textarea id="jsonpaste" style="width:100%;height:200px"></textarea>
-      <div style="margin-top:8px"><button id="loadpaste">Načítať vložené dáta</button></div>
+    const questions = await loadData(filename);
+    startApp(questions, subjectName);
+  } catch (e) {
+    // If there's an error, display it in the app container
+    appContainer.innerHTML = `
+      <div class="card">
+        <strong>Chyba pri načítaní súboru: ${filename}</strong>
+        <div class="small" style="margin-top: 8px;">${e.message}</div>
+        <p class="small">Uistite sa, že súbor existuje v rovnakom priečinku a že ste spustili lokálny server.</p>
       </div>`;
-    document.getElementById('loadpaste')?.addEventListener('click', ()=>{
-      try{
-        const txt = document.getElementById('jsonpaste').value;
-        const data = JSON.parse(txt);
-        startApp(data);
-      }catch(err){ alert('Neplatný JSON: ' + err.message); }
-    });
-    throw e;
   }
 }
 
-function startApp(questions){
-  let idx = 0;
-  const app = document.getElementById('app');
-  function render(){
-    const q = questions[idx];
-    app.innerHTML = `
+/**
+ * Fetches and parses the JSON data from a file.
+ * @param {string} filename - The name of the file to fetch.
+ */
+async function loadData(filename) {
+  const resp = await fetch(filename);
+  if (!resp.ok) {
+    throw new Error(`HTTP chyba: ${resp.status} ${resp.statusText}`);
+  }
+  return await resp.json();
+}
+
+/**
+ * Renders and manages the quiz interface.
+ * @param {Array} questions - An array of question objects.
+ * @param {string} subjectName - The name of the subject to display.
+ */
+function startApp(questions, subjectName) {
+  let currentIndex = 0;
+
+  function render() {
+    const q = questions[currentIndex];
+    appContainer.innerHTML = `
       <div class="card">
-        <div class="small">Otázka ${idx+1} z ${questions.length} — číslo v publikácii: ${q.number}</div>
-        <h2 style="margin:8px 0 0 0">${q.question}</h2>
+        <h1>${subjectName}</h1>
+        <div class="small">Otázka ${currentIndex + 1} z ${questions.length} — číslo v publikácii: ${q.number}</div>
+        <h2>${q.question}</h2>
         <div class="options" id="opts"></div>
         <div class="controls">
           <button id="prev">◀️ Predošlá</button>
@@ -73,52 +120,69 @@ function startApp(questions){
         </div>
       </div>
     `;
-    const optsDiv = document.getElementById('opts');
-    q.options.forEach((optText, i) => {
+
+    const optionsContainer = document.getElementById('opts');
+    q.options.forEach((optionText, i) => {
       const btn = document.createElement('button');
       btn.className = 'option';
-      btn.innerHTML = `<strong>${String.fromCharCode(97+i)})</strong> ${optText || ''}`;
+      btn.innerHTML = `<strong>${String.fromCharCode(97 + i)})</strong> ${optionText || ''}`;
       btn.dataset.index = i;
       btn.onclick = () => handleSelect(btn, i, q);
-      optsDiv.appendChild(btn);
+      optionsContainer.appendChild(btn);
     });
-    document.getElementById('prev').onclick = ()=>{ if(idx>0){ idx--; render(); } };
-    document.getElementById('next').onclick = ()=>{ if(idx<questions.length-1){ idx++; render(); } };
-    document.getElementById('showCorrect').onchange = (e)=>{ if(e.target.checked) revealCorrect(); else resetStyles(); };
+
+    // Navigation and control event listeners
+    document.getElementById('prev').onclick = () => {
+      if (currentIndex > 0) {
+        currentIndex--;
+        render();
+      }
+    };
+    document.getElementById('next').onclick = () => {
+      if (currentIndex < questions.length - 1) {
+        currentIndex++;
+        render();
+      }
+    };
+    document.getElementById('showCorrect').onchange = (e) => {
+      if (e.target.checked) {
+        revealCorrect();
+      } else {
+        resetStyles();
+      }
+    };
   }
 
-  function handleSelect(btn, i, q){
-    const isCorrect = q.correct[i];
-    if(isCorrect){
+  function handleSelect(btn, i, q) {
+    if (q.correct[i]) {
       btn.classList.add('correct');
-      btn.disabled = true;
     } else {
       btn.classList.add('wrong');
-      btn.disabled = true;
-      revealCorrect();
+      revealCorrect(); // Show the correct answer if the user is wrong
     }
+    // Disable all options after a selection is made for the current question
+    document.querySelectorAll('.option').forEach(b => b.disabled = true);
   }
 
-  function revealCorrect(){
-    document.querySelectorAll('.option').forEach(b=>{
-      const i = b.dataset.index;
-      try{
-        if(questions[idx].correct[i*1]) b.classList.add('correct');
-      }catch(e){}
+  function revealCorrect() {
+    document.querySelectorAll('.option').forEach(b => {
+      const i = parseInt(b.dataset.index, 10);
+      if (questions[currentIndex].correct[i]) {
+        b.classList.add('correct');
+      }
     });
   }
 
-  function resetStyles(){
-    document.querySelectorAll('.option').forEach(b=>{
-      b.classList.remove('correct','wrong');
+  function resetStyles() {
+    document.querySelectorAll('.option').forEach(b => {
+      b.classList.remove('correct', 'wrong');
       b.disabled = false;
     });
   }
 
+  // Initial render of the first question
   render();
 }
-
-loadData().then(data=>startApp(data)).catch(()=>{ /* handled above */ });
 </script>
 </body>
 </html>

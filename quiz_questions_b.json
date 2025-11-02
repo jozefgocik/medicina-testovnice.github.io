@@ -202,7 +202,7 @@
       "spolu s  energetickým metabolizmom je základom všetkých životných procesov",
       "nie je významný pre živé systémy",
       "sa definuje iba ako výdaj látok do vonkajšieho prostredia",
-      "je definovaný ako látkový metabolizmus (prem eny látok), vrátane výdaja látok do vonkajšieho prostredia "
+      "je definovaný ako látkový metabolizmus (premeny látok), vrátane výdaja látok do vonkajšieho prostredia "
     ],
     "correct": [
       false,
@@ -243,7 +243,7 @@
     "number": 11,
     "question": "Chemické zloženie bunky:",
     "options": [
-      "je v zásade rovnaké u  všetkých organizmov",
+      "je v zásade rovnaké u všetkých organizmov",
       "je počas jej existencie nemenné",
       "na organické látky pripadá 10 až 40 % celkovej hmotnosti bu nky",
       "pomerné zastúpenie jednotlivých chemických zlúčenín závisí od typu buniek",
@@ -394,7 +394,7 @@
       "môžu mať ochrannú funkciu, napr. ak sú súčasťou voskov",
       "sú rozpúšťadlom biologicky významných polárnych látok",
       "patria medzi najvýznamnejšie organické látky",
-      "patria do skupiny nepolárnych molekú l biogénneho pôvodu "
+      "patria do skupiny nepolárnych molekúl biogénneho pôvodu "
     ],
     "correct": [
       true,
@@ -481,7 +481,7 @@
   },
   {
     "number": 21,
-    "question": "Ktoré polysacharidy majú zásobnú funkciu ??",
+    "question": "Ktoré polysacharidy majú zásobnú funkciu ?",
     "options": [
       "glykogén",
       "celulóza",
@@ -518,9 +518,9 @@
     ],
     "correct": [
       false,
+      true,
       false,
-      false,
-      false,
+      true,
       false,
       false,
       false,
@@ -541,12 +541,12 @@
       "monosacharidy (napr. glykogén) "
     ],
     "correct": [
+      true,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
       false,
       false
     ]
@@ -565,12 +565,12 @@
       "plazmidy "
     ],
     "correct": [
+      true,
       false,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
+      true,
       false,
       false
     ]
@@ -589,13 +589,13 @@
       "celulózovej siete vyplnenej bielkovinami a polysacharidmi"
     ],
     "correct": [
+      true,
       false,
       false,
       false,
       false,
       false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -613,8 +613,8 @@
       "jednej vrstvy lipidov a dvoch vrstiev proteínov "
     ],
     "correct": [
-      false,
-      false,
+      true,
+      true,
       false,
       false,
       false,
@@ -640,9 +640,9 @@
       false,
       false,
       false,
+      true,
       false,
-      false,
-      false,
+      true,
       false,
       false
     ]
@@ -661,10 +661,10 @@
       "všetky rozpustené látky zostali  mimo buniek "
     ],
     "correct": [
+      true,
       false,
-      false,
-      false,
-      false,
+      true,
+      true,
       false,
       false,
       false,
@@ -686,12 +686,12 @@
     ],
     "correct": [
       false,
+      true,
+      false,
+      true,
       false,
       false,
-      false,
-      false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -710,18 +710,18 @@
     ],
     "correct": [
       false,
+      true,
       false,
+      true,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
     "number": 31,
-    "question": "Bunková s tena:",
+    "question": "Bunková stena:",
     "options": [
       "je typická štruktúra rastlinných buniek, húb a  prokaryotických buniek",
       "nemá význam pri delení buniek",
@@ -729,17 +729,17 @@
       "je nepriepustná pre vodu",
       "v prípade rastlinných buniek je tvorená celulózou",
       "má význam pri delení buniek",
-      "je priepustná pre vodu a látky v  nej rozpustené",
+      "je priepustná pre vodu a látky v nej rozpustené",
       "je typická povrchová štruktúra živočíšnych buniek "
     ],
     "correct": [
+      true,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
       false
     ]
   },
@@ -759,11 +759,11 @@
     "correct": [
       false,
       false,
+      true,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -782,13 +782,13 @@
     ],
     "correct": [
       false,
+      true,
+      true,
       false,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -806,11 +806,11 @@
     ],
     "correct": [
       false,
-      false,
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
+      true,
+      true,
       false,
       false
     ]
@@ -829,14 +829,14 @@
       "vykazuje metabolickú aktivitu "
     ],
     "correct": [
+      true,
+      false,
+      true,
       false,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -854,13 +854,13 @@
     ],
     "correct": [
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false
+      true,
+      true,
+      true,
+      true,
+      true
     ]
   },
   {
@@ -878,11 +878,11 @@
     ],
     "correct": [
       false,
+      true,
       false,
       false,
-      false,
-      false,
-      false,
+      true,
+      true,
       false,
       false
     ]
@@ -903,12 +903,12 @@
     "correct": [
       false,
       false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
     ]
   },
   {
@@ -926,13 +926,13 @@
     ],
     "correct": [
       false,
+      true,
       false,
+      true,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
-      false
+      true,
+      true
     ]
   },
   {
@@ -951,9 +951,9 @@
     "correct": [
       false,
       false,
+      true,
       false,
-      false,
-      false,
+      true,
       false,
       false,
       false
@@ -974,11 +974,11 @@
     ],
     "correct": [
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
       false,
       false
     ]
@@ -997,14 +997,14 @@
       "eukaryotických buniek má na povrchu jadrový obal"
     ],
     "correct": [
+      true,
       false,
+      true,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
-      false
+      true,
+      true
     ]
   },
   {
@@ -1022,8 +1022,8 @@
     ],
     "correct": [
       false,
-      false,
-      false,
+      true,
+      true,
       false,
       false,
       false,
@@ -1049,7 +1049,7 @@
       false,
       false,
       false,
-      false,
+      true,
       false,
       false,
       false
@@ -1070,12 +1070,12 @@
     ],
     "correct": [
       false,
+      true,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
       false
     ]
   },
@@ -1094,10 +1094,10 @@
     ],
     "correct": [
       false,
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
+      true,
       false,
       false,
       false
@@ -1117,12 +1117,12 @@
       "základ chromoplastov"
     ],
     "correct": [
+      true,
+      false,
+      true,
       false,
       false,
-      false,
-      false,
-      false,
-      false,
+      true,
       false,
       false
     ]
@@ -1142,10 +1142,10 @@
     ],
     "correct": [
       false,
+      true,
+      true,
       false,
-      false,
-      false,
-      false,
+      true,
       false,
       false,
       false
@@ -1166,12 +1166,12 @@
     ],
     "correct": [
       false,
+      true,
       false,
       false,
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
       false
     ]
   },
@@ -1189,14 +1189,14 @@
       "patria medzi membránové organely "
     ],
     "correct": [
+      true,
       false,
       false,
+      true,
+      true,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -1214,9 +1214,9 @@
     ],
     "correct": [
       false,
+      true,
       false,
-      false,
-      false,
+      true,
       false,
       false,
       false,
@@ -1238,13 +1238,13 @@
     ],
     "correct": [
       false,
+      true,
+      true,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
-      false
+      true,
+      true
     ]
   },
   {
@@ -1261,14 +1261,14 @@
       "v elektrónovom mikroskope sa javí ako sústava mechúrikov, plochých cisterien a kanálikov "
     ],
     "correct": [
+      true,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false
+      true,
+      true,
+      true,
+      true
     ]
   },
   {
@@ -1286,12 +1286,12 @@
     ],
     "correct": [
       false,
+      true,
+      true,
       false,
       false,
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
       false
     ]
   },
@@ -1309,13 +1309,13 @@
       "sa môžu nachádzať na povrchu hladkého endoplazmatického retikula "
     ],
     "correct": [
+      true,
+      true,
       false,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -1335,11 +1335,11 @@
     "correct": [
       false,
       false,
+      true,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -1358,12 +1358,12 @@
     ],
     "correct": [
       false,
+      true,
       false,
       false,
       false,
       false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -1382,12 +1382,12 @@
     ],
     "correct": [
       false,
+      true,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
       false
     ]
   },
@@ -1406,13 +1406,13 @@
     ],
     "correct": [
       false,
+      true,
       false,
+      true,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -1431,9 +1431,9 @@
     "correct": [
       false,
       false,
+      true,
       false,
-      false,
-      false,
+      true,
       false,
       false,
       false
@@ -1454,13 +1454,13 @@
     ],
     "correct": [
       false,
+      true,
+      true,
       false,
+      true,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -1502,13 +1502,13 @@
     ],
     "correct": [
       false,
+      true,
+      true,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false
+      true,
+      true,
+      true
     ]
   },
   {
@@ -1525,14 +1525,14 @@
       "sú zásobárňo u rozličných látok "
     ],
     "correct": [
+      true,
       false,
+      true,
+      true,
+      true,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -1550,13 +1550,13 @@
     ],
     "correct": [
       false,
+      true,
+      true,
       false,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -1574,13 +1574,13 @@
     ],
     "correct": [
       false,
+      true,
+      true,
+      true,
       false,
       false,
-      false,
-      false,
-      false,
-      false,
-      false
+      true,
+      true
     ]
   },
   {
@@ -1598,9 +1598,9 @@
     ],
     "correct": [
       false,
+      true,
       false,
-      false,
-      false,
+      true,
       false,
       false,
       false,
@@ -1621,14 +1621,14 @@
       "spravidla nie sú metabolicky aktívne "
     ],
     "correct": [
+      true,
+      true,
+      false,
+      true,
+      true,
       false,
       false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -1645,11 +1645,11 @@
       "áno, u  rastlín v plazmidoch "
     ],
     "correct": [
+      true,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
+      true,
       false,
       false,
       false
@@ -1670,8 +1670,8 @@
     ],
     "correct": [
       false,
-      false,
-      false,
+      true,
+      true,
       false,
       false,
       false,
@@ -1694,10 +1694,10 @@
     ],
     "correct": [
       false,
+      true,
       false,
-      false,
-      false,
-      false,
+      true,
+      true,
       false,
       false,
       false
@@ -1718,11 +1718,11 @@
     ],
     "correct": [
       false,
+      true,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
+      true,
       false,
       false
     ]
@@ -1742,13 +1742,13 @@
     ],
     "correct": [
       false,
+      true,
+      false,
+      true,
+      true,
       false,
       false,
-      false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -1765,14 +1765,14 @@
       "sa nazývajú aj ako pravé bunky, pretože ich jadro má jadrový obal "
     ],
     "correct": [
+      true,
+      true,
+      true,
       false,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -1790,11 +1790,11 @@
     ],
     "correct": [
       false,
+      true,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
+      true,
       false,
       false
     ]
@@ -1813,12 +1813,12 @@
       "má na svojom povrchu bunkovú stenu, ktorá je spojená s  cytoplazmatickou membránou"
     ],
     "correct": [
+      true,
+      true,
       false,
       false,
       false,
-      false,
-      false,
-      false,
+      true,
       false,
       false
     ]
@@ -1837,14 +1837,14 @@
       "na svojom povrchu nemá bunkovú stenu "
     ],
     "correct": [
+      true,
+      true,
       false,
       false,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -1862,10 +1862,10 @@
     ],
     "correct": [
       false,
+      true,
       false,
       false,
-      false,
-      false,
+      true,
       false,
       false,
       false
@@ -1886,8 +1886,8 @@
     ],
     "correct": [
       false,
-      false,
-      false,
+      true,
+      true,
       false,
       false,
       false,
@@ -1912,11 +1912,11 @@
       false,
       false,
       false,
+      true,
       false,
+      true,
       false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -1933,13 +1933,13 @@
       "zhubné "
     ],
     "correct": [
+      true,
+      false,
+      true,
+      true,
       false,
       false,
-      false,
-      false,
-      false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -1957,13 +1957,13 @@
       "kontrakčnú "
     ],
     "correct": [
+      true,
+      true,
       false,
       false,
-      false,
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
       false
     ]
   },
@@ -1981,14 +1981,14 @@
       "zabezpečujú oporu a  ochranu mäkkým častiam tela "
     ],
     "correct": [
+      true,
       false,
       false,
+      true,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -2005,14 +2005,14 @@
       "skúmaním základných životných prejavov"
     ],
     "correct": [
+      true,
       false,
       false,
       false,
+      true,
+      true,
       false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -2029,13 +2029,13 @@
       "fotosyntéza "
     ],
     "correct": [
+      true,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
       false
     ]
   },
@@ -2053,14 +2053,14 @@
       "je fyzikálny proces "
     ],
     "correct": [
+      true,
       false,
+      true,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
-      false
+      true,
+      true
     ]
   },
   {
@@ -2077,14 +2077,14 @@
       "kyslík "
     ],
     "correct": [
+      true,
+      true,
+      true,
+      true,
       false,
       false,
       false,
-      false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -2101,11 +2101,11 @@
       "rozdielu koncentrácie danej látky na póloch bunky "
     ],
     "correct": [
+      true,
       false,
       false,
-      false,
-      false,
-      false,
+      true,
+      true,
       false,
       false,
       false
@@ -2127,12 +2127,12 @@
     "correct": [
       false,
       false,
+      true,
+      true,
       false,
       false,
       false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -2150,9 +2150,9 @@
     ],
     "correct": [
       false,
+      true,
       false,
-      false,
-      false,
+      true,
       false,
       false,
       false,
@@ -2173,9 +2173,9 @@
       "v prostredí, ktoré je hustejšie, ako v bunke "
     ],
     "correct": [
+      true,
       false,
-      false,
-      false,
+      true,
       false,
       false,
       false,
@@ -2197,13 +2197,13 @@
       "nevyžaduje spotrebu energie "
     ],
     "correct": [
+      true,
       false,
+      true,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
       false
     ]
   },
@@ -2221,9 +2221,9 @@
       "konjugácia "
     ],
     "correct": [
+      true,
       false,
-      false,
-      false,
+      true,
       false,
       false,
       false,
@@ -2247,7 +2247,7 @@
     "correct": [
       false,
       false,
-      false,
+      true,
       false,
       false,
       false,
@@ -2269,10 +2269,10 @@
       "konjugácia "
     ],
     "correct": [
+      true,
+      true,
       false,
-      false,
-      false,
-      false,
+      true,
       false,
       false,
       false,
@@ -2293,12 +2293,12 @@
       "bazálny metabolizmus "
     ],
     "correct": [
+      true,
       false,
       false,
       false,
       false,
-      false,
-      false,
+      true,
       false,
       false
     ]
@@ -2318,12 +2318,12 @@
     ],
     "correct": [
       false,
+      true,
       false,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -2343,10 +2343,10 @@
     "correct": [
       false,
       false,
+      true,
+      true,
       false,
-      false,
-      false,
-      false,
+      true,
       false,
       false
     ]
@@ -2365,7 +2365,7 @@
       "makroergická peptidová väzba "
     ],
     "correct": [
-      false,
+      true,
       false,
       false,
       false,
@@ -2391,9 +2391,9 @@
     "correct": [
       false,
       false,
+      true,
       false,
-      false,
-      false,
+      true,
       false,
       false,
       false
@@ -2413,10 +2413,10 @@
       "tubulín "
     ],
     "correct": [
+      true,
+      true,
       false,
-      false,
-      false,
-      false,
+      true,
       false,
       false,
       false,
@@ -2438,9 +2438,9 @@
     ],
     "correct": [
       false,
+      true,
       false,
-      false,
-      false,
+      true,
       false,
       false,
       false,
@@ -2461,14 +2461,14 @@
       "účinnou zložkou enzýmu je nebielkovinový koenzým"
     ],
     "correct": [
+      true,
+      true,
+      true,
       false,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -2485,10 +2485,10 @@
       "reprodukčnú "
     ],
     "correct": [
+      true,
       false,
       false,
-      false,
-      false,
+      true,
       false,
       false,
       false,
@@ -2513,7 +2513,7 @@
       false,
       false,
       false,
-      false,
+      true,
       false,
       false,
       false
@@ -2534,9 +2534,9 @@
     ],
     "correct": [
       false,
+      true,
       false,
-      false,
-      false,
+      true,
       false,
       false,
       false,
@@ -2557,10 +2557,10 @@
       "že zabezpečujú fungovanie autolýzy "
     ],
     "correct": [
+      true,
       false,
       false,
-      false,
-      false,
+      true,
       false,
       false,
       false,
@@ -2585,10 +2585,10 @@
       false,
       false,
       false,
+      true,
       false,
       false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -2606,13 +2606,13 @@
     ],
     "correct": [
       false,
+      true,
       false,
       false,
       false,
       false,
-      false,
-      false,
-      false
+      true,
+      true
     ]
   },
   {
@@ -2630,7 +2630,7 @@
     ],
     "correct": [
       false,
-      false,
+      true,
       false,
       false,
       false,
@@ -2653,14 +2653,14 @@
       "oxidatívnou fosforyláciou "
     ],
     "correct": [
+      true,
+      true,
+      true,
+      true,
       false,
       false,
       false,
-      false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -2703,7 +2703,7 @@
     "correct": [
       false,
       false,
-      false,
+      true,
       false,
       false,
       false,
@@ -2725,14 +2725,14 @@
       "prítomná  u všetkých mnohobunkových organizmov "
     ],
     "correct": [
+      true,
       false,
       false,
       false,
       false,
-      false,
-      false,
-      false,
-      false
+      true,
+      true,
+      true
     ]
   },
   {
@@ -2750,12 +2750,12 @@
     ],
     "correct": [
       false,
+      true,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
       false
     ]
   },
@@ -2776,7 +2776,7 @@
       false,
       false,
       false,
-      false,
+      true,
       false,
       false,
       false,
@@ -2798,9 +2798,9 @@
     ],
     "correct": [
       false,
+      true,
       false,
-      false,
-      false,
+      true,
       false,
       false,
       false,
@@ -2823,10 +2823,10 @@
     "correct": [
       false,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
+      true,
+      true,
       false,
       false
     ]
@@ -2845,12 +2845,12 @@
       "vedie k presnej distribúcii genetické ho materiálu do dcérskych buniek "
     ],
     "correct": [
+      true,
+      true,
       false,
       false,
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
       false,
       false
     ]
@@ -2869,14 +2869,14 @@
       "v M fáze bunkového cyklu"
     ],
     "correct": [
+      true,
+      true,
       false,
       false,
+      true,
       false,
       false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -2893,14 +2893,14 @@
       "je zložený z  ramien, ktoré sa spájajú v  mieste centroméry "
     ],
     "correct": [
+      true,
+      true,
+      false,
+      true,
       false,
       false,
       false,
-      false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -2917,14 +2917,14 @@
       "pár pohlavných chromozómov "
     ],
     "correct": [
+      true,
       false,
       false,
       false,
+      true,
       false,
       false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -2942,10 +2942,10 @@
     ],
     "correct": [
       false,
+      true,
+      true,
       false,
-      false,
-      false,
-      false,
+      true,
       false,
       false,
       false
@@ -2966,9 +2966,9 @@
     ],
     "correct": [
       false,
+      true,
       false,
-      false,
-      false,
+      true,
       false,
       false,
       false,
@@ -2989,10 +2989,10 @@
       "pravidelné opakovanie interfázy a protofázy"
     ],
     "correct": [
+      true,
       false,
       false,
-      false,
-      false,
+      true,
       false,
       false,
       false,
@@ -3013,14 +3013,14 @@
       "za priaznivých okolností trvá asi tretinu bunkového cyklu "
     ],
     "correct": [
+      true,
+      true,
       false,
+      true,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -3037,11 +3037,11 @@
       "pri prítomnosti stimulujúcich látok "
     ],
     "correct": [
-      false,
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
+      true,
+      true,
       false,
       false,
       false
@@ -3062,11 +3062,11 @@
     ],
     "correct": [
       false,
+      true,
       false,
       false,
       false,
-      false,
-      false,
+      true,
       false,
       false
     ]
@@ -3087,12 +3087,12 @@
     "correct": [
       false,
       false,
+      true,
+      false,
+      true,
       false,
       false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -3109,12 +3109,12 @@
       "diferenciácia "
     ],
     "correct": [
+      true,
+      false,
+      true,
       false,
       false,
-      false,
-      false,
-      false,
-      false,
+      true,
       false,
       false
     ]
@@ -3133,10 +3133,10 @@
       "M fáze - sa jadro rozdelí na dve dcérske jadrá a zvyčajne je tu hlavný kontrolný uzol cyklu "
     ],
     "correct": [
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
+      true,
       false,
       false,
       false,
@@ -3157,11 +3157,11 @@
       "protofáza "
     ],
     "correct": [
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
       false,
       false,
       false
@@ -3183,9 +3183,9 @@
     "correct": [
       false,
       false,
+      true,
       false,
-      false,
-      false,
+      true,
       false,
       false,
       false
@@ -3205,14 +3205,14 @@
       "sústreďujú do ekvatoriálnej roviny "
     ],
     "correct": [
+      true,
       false,
       false,
       false,
       false,
       false,
       false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -3229,11 +3229,11 @@
       "chromozómy sa sústreďujú v centrálnej rovine bunky "
     ],
     "correct": [
+      true,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
+      true,
       false,
       false,
       false
@@ -3253,13 +3253,13 @@
       "telofáza "
     ],
     "correct": [
+      true,
       false,
+      true,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -3278,11 +3278,11 @@
     ],
     "correct": [
       false,
-      false,
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
+      true,
+      true,
       false,
       false
     ]
@@ -3303,9 +3303,9 @@
     "correct": [
       false,
       false,
+      true,
       false,
-      false,
-      false,
+      true,
       false,
       false,
       false
@@ -3325,14 +3325,14 @@
       "je nevy hnutná preto, aby sa po oplodnení nezvyšoval počet chromozómov v  každej ďalšej generácii "
     ],
     "correct": [
+      true,
+      true,
       false,
       false,
+      true,
       false,
       false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -3350,10 +3350,10 @@
     ],
     "correct": [
       false,
+      true,
+      true,
       false,
-      false,
-      false,
-      false,
+      true,
       false,
       false,
       false
@@ -3373,10 +3373,10 @@
       "gametogónia "
     ],
     "correct": [
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
+      true,
       false,
       false,
       false,
@@ -3397,14 +3397,14 @@
       "nevedie k dedičnej rôznorodosti medzi potomkami"
     ],
     "correct": [
+      true,
       false,
       false,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false
+      true,
+      true
     ]
   },
   {
@@ -3424,8 +3424,8 @@
       false,
       false,
       false,
-      false,
-      false,
+      true,
+      true,
       false,
       false,
       false
@@ -3446,11 +3446,11 @@
     ],
     "correct": [
       false,
+      true,
       false,
       false,
       false,
-      false,
-      false,
+      true,
       false,
       false
     ]
@@ -3470,13 +3470,13 @@
     ],
     "correct": [
       false,
+      true,
+      true,
       false,
       false,
       false,
-      false,
-      false,
-      false,
-      false
+      true,
+      true
     ]
   },
   {
@@ -3494,10 +3494,10 @@
     ],
     "correct": [
       false,
+      true,
       false,
       false,
-      false,
-      false,
+      true,
       false,
       false,
       false
@@ -3517,13 +3517,13 @@
       "sú vždy diploidné "
     ],
     "correct": [
+      true,
+      true,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
       false
     ]
   },
@@ -3542,13 +3542,13 @@
     ],
     "correct": [
       false,
+      true,
       false,
+      true,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -3567,11 +3567,11 @@
     "correct": [
       false,
       false,
+      true,
       false,
       false,
       false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -3590,13 +3590,13 @@
     ],
     "correct": [
       false,
+      true,
+      true,
       false,
+      true,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -3614,13 +3614,13 @@
     ],
     "correct": [
       false,
+      true,
       false,
       false,
+      true,
+      true,
       false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -3637,13 +3637,13 @@
       "jav, keď organizmus produkuje makrogaméty aj mikrogaméty "
     ],
     "correct": [
+      true,
       false,
+      true,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -3661,12 +3661,12 @@
       "základ pohlavného rozmnožovania "
     ],
     "correct": [
+      true,
+      true,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
+      true,
       false,
       false
     ]
@@ -3686,13 +3686,13 @@
     ],
     "correct": [
       false,
+      true,
+      true,
       false,
       false,
       false,
       false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -3709,14 +3709,14 @@
       "proces, ktorý prebieha aj u anizogamét"
     ],
     "correct": [
+      true,
+      true,
+      true,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false
+      true,
+      true
     ]
   },
   {
@@ -3734,10 +3734,10 @@
     ],
     "correct": [
       false,
+      true,
       false,
       false,
-      false,
-      false,
+      true,
       false,
       false,
       false
@@ -3757,10 +3757,10 @@
       "ektodermy "
     ],
     "correct": [
+      true,
+      true,
       false,
-      false,
-      false,
-      false,
+      true,
       false,
       false,
       false,
@@ -3783,7 +3783,7 @@
     "correct": [
       false,
       false,
-      false,
+      true,
       false,
       false,
       false,
@@ -3805,12 +3805,12 @@
       "reprodukčnú"
     ],
     "correct": [
+      true,
+      false,
+      true,
       false,
       false,
-      false,
-      false,
-      false,
-      false,
+      true,
       false,
       false
     ]
@@ -3829,13 +3829,13 @@
       "pubertu "
     ],
     "correct": [
+      true,
+      true,
+      true,
       false,
       false,
-      false,
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
       false
     ]
   },
@@ -3855,11 +3855,11 @@
     "correct": [
       false,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
       false
     ]
   },
@@ -3877,14 +3877,14 @@
       "pankreas "
     ],
     "correct": [
+      true,
+      true,
       false,
       false,
+      true,
       false,
       false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -3901,12 +3901,12 @@
       "dusíkatá organická báza, hexóza a kyselina fosforečná "
     ],
     "correct": [
+      true,
       false,
       false,
       false,
-      false,
-      false,
-      false,
+      true,
+      true,
       false,
       false
     ]
@@ -3925,13 +3925,13 @@
       "v G1 fáze interfázy"
     ],
     "correct": [
+      true,
       false,
       false,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -3949,13 +3949,13 @@
       "replikovaná DNA "
     ],
     "correct": [
+      true,
       false,
       false,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -3974,9 +3974,9 @@
     ],
     "correct": [
       false,
+      true,
       false,
-      false,
-      false,
+      true,
       false,
       false,
       false,
@@ -3997,14 +3997,14 @@
       "kyselina deoxyribonukleová "
     ],
     "correct": [
+      true,
       false,
       false,
       false,
       false,
       false,
-      false,
-      false,
-      false
+      true,
+      true
     ]
   },
   {
@@ -4024,10 +4024,10 @@
       false,
       false,
       false,
+      true,
+      true,
       false,
-      false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -4049,7 +4049,7 @@
       false,
       false,
       false,
-      false,
+      true,
       false,
       false,
       false
@@ -4073,10 +4073,10 @@
       false,
       false,
       false,
+      true,
       false,
-      false,
-      false,
-      false
+      true,
+      true
     ]
   },
   {
@@ -4093,14 +4093,14 @@
       "spermie a  vajíčka sú haploidné "
     ],
     "correct": [
+      true,
+      true,
       false,
       false,
+      true,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -4117,14 +4117,14 @@
       "ich primárnou štruktúrou"
     ],
     "correct": [
+      true,
+      false,
+      false,
+      true,
       false,
       false,
       false,
-      false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -4142,11 +4142,11 @@
     ],
     "correct": [
       false,
+      true,
       false,
       false,
-      false,
-      false,
-      false,
+      true,
+      true,
       false,
       false
     ]
@@ -4168,7 +4168,7 @@
       false,
       false,
       false,
-      false,
+      true,
       false,
       false,
       false,
@@ -4190,12 +4190,12 @@
     ],
     "correct": [
       false,
+      true,
       false,
       false,
       false,
       false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -4215,10 +4215,10 @@
     "correct": [
       false,
       false,
+      true,
       false,
       false,
-      false,
-      false,
+      true,
       false,
       false
     ]
@@ -4238,12 +4238,12 @@
     ],
     "correct": [
       false,
+      true,
+      true,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -4265,9 +4265,9 @@
       false,
       false,
       false,
+      true,
       false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -4285,11 +4285,11 @@
       "úplnú genetickú informáciu pre poradie nukleotidov proteínu "
     ],
     "correct": [
+      true,
       false,
       false,
-      false,
-      false,
-      false,
+      true,
+      true,
       false,
       false,
       false
@@ -4309,11 +4309,11 @@
       "iný názov pre genetický kód"
     ],
     "correct": [
+      true,
+      true,
       false,
       false,
-      false,
-      false,
-      false,
+      true,
       false,
       false,
       false
@@ -4336,9 +4336,9 @@
       false,
       false,
       false,
+      true,
       false,
-      false,
-      false,
+      true,
       false,
       false
     ]
@@ -4361,9 +4361,9 @@
       false,
       false,
       false,
+      true,
       false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -4381,12 +4381,12 @@
       "RNA polymeráza syntetizuje v  smere 3‘→5‘ "
     ],
     "correct": [
+      true,
+      true,
       false,
       false,
       false,
-      false,
-      false,
-      false,
+      true,
       false,
       false
     ]
@@ -4406,13 +4406,13 @@
     ],
     "correct": [
       false,
+      true,
+      true,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
-      false
+      true,
+      true
     ]
   },
   {
@@ -4432,7 +4432,7 @@
       false,
       false,
       false,
-      false,
+      true,
       false,
       false,
       false,
@@ -4453,12 +4453,12 @@
       "jadro "
     ],
     "correct": [
+      true,
+      false,
+      true,
       false,
       false,
-      false,
-      false,
-      false,
-      false,
+      true,
       false,
       false
     ]
@@ -4479,10 +4479,10 @@
     "correct": [
       false,
       false,
+      true,
+      true,
       false,
-      false,
-      false,
-      false,
+      true,
       false,
       false
     ]
@@ -4504,8 +4504,8 @@
       false,
       false,
       false,
-      false,
-      false,
+      true,
+      true,
       false,
       false,
       false
@@ -4525,14 +4525,14 @@
       "regulujú aktivitu génov v čase a  priestore "
     ],
     "correct": [
+      true,
+      false,
+      true,
       false,
       false,
       false,
-      false,
-      false,
-      false,
-      false,
-      false
+      true,
+      true
     ]
   },
   {
@@ -4549,13 +4549,13 @@
       "hmota RNA a  polysacharidov "
     ],
     "correct": [
+      true,
+      true,
       false,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -4573,11 +4573,11 @@
       "genotyp "
     ],
     "correct": [
+      true,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
+      true,
       false,
       false,
       false
@@ -4598,9 +4598,9 @@
     ],
     "correct": [
       false,
+      true,
       false,
-      false,
-      false,
+      true,
       false,
       false,
       false,
@@ -4625,7 +4625,7 @@
       false,
       false,
       false,
-      false,
+      true,
       false,
       false,
       false
@@ -4699,7 +4699,7 @@
       false,
       false,
       false,
-      false,
+      true,
       false
     ]
   },
@@ -4720,8 +4720,8 @@
       false,
       false,
       false,
-      false,
-      false,
+      true,
+      true,
       false,
       false,
       false
@@ -4742,13 +4742,13 @@
     ],
     "correct": [
       false,
+      true,
+      true,
       false,
       false,
-      false,
-      false,
-      false,
-      false,
-      false
+      true,
+      true,
+      true
     ]
   },
   {
@@ -4766,13 +4766,13 @@
     ],
     "correct": [
       false,
+      true,
+      true,
+      true,
       false,
       false,
-      false,
-      false,
-      false,
-      false,
-      false
+      true,
+      true
     ]
   },
   {
@@ -4789,7 +4789,7 @@
       "tymínom "
     ],
     "correct": [
-      false,
+      true,
       false,
       false,
       false,
@@ -4813,14 +4813,14 @@
       "v mitochondriách kódujú štruktúru oxidačno -redukčných bielkovín "
     ],
     "correct": [
+      true,
+      true,
+      true,
+      true,
       false,
       false,
       false,
-      false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -4838,11 +4838,11 @@
     ],
     "correct": [
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
       false,
       false
     ]
@@ -4864,8 +4864,8 @@
       false,
       false,
       false,
-      false,
-      false,
+      true,
+      true,
       false,
       false,
       false
@@ -4892,7 +4892,7 @@
       false,
       false,
       false,
-      false
+      true
     ]
   },
   {
@@ -4912,9 +4912,9 @@
       false,
       false,
       false,
+      true,
       false,
-      false,
-      false,
+      true,
       false,
       false
     ]
@@ -4938,7 +4938,7 @@
       false,
       false,
       false,
-      false,
+      true,
       false,
       false
     ]
@@ -4957,14 +4957,14 @@
       "poradie nukleotidov je určené poradím báz v jednom z vlákien DNA "
     ],
     "correct": [
+      true,
       false,
+      true,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false
+      true,
+      true,
+      true
     ]
   },
   {
@@ -4987,8 +4987,8 @@
       false,
       false,
       false,
-      false,
-      false
+      true,
+      true
     ]
   },
   {
@@ -5006,13 +5006,13 @@
     ],
     "correct": [
       false,
+      true,
       false,
+      true,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -5032,9 +5032,9 @@
       false,
       false,
       false,
+      true,
       false,
-      false,
-      false,
+      true,
       false,
       false
     ]
@@ -5054,12 +5054,12 @@
     ],
     "correct": [
       false,
+      true,
+      true,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -5077,13 +5077,13 @@
       "matricou je DNA a pospájaním nukleotidov sa uvoľní veľké množstvo energie "
     ],
     "correct": [
+      true,
+      true,
+      false,
+      true,
       false,
       false,
-      false,
-      false,
-      false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -5103,10 +5103,10 @@
     "correct": [
       false,
       false,
+      true,
       false,
       false,
-      false,
-      false,
+      true,
       false,
       false
     ]
@@ -5128,11 +5128,11 @@
       false,
       false,
       false,
+      true,
       false,
       false,
       false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -5150,7 +5150,7 @@
     ],
     "correct": [
       false,
-      false,
+      true,
       false,
       false,
       false,
@@ -5176,7 +5176,7 @@
       false,
       false,
       false,
-      false,
+      true,
       false,
       false,
       false,
@@ -5199,9 +5199,9 @@
     "correct": [
       false,
       false,
+      true,
       false,
-      false,
-      false,
+      true,
       false,
       false,
       false
@@ -5222,7 +5222,7 @@
     ],
     "correct": [
       false,
-      false,
+      true,
       false,
       false,
       false,
@@ -5246,10 +5246,10 @@
     ],
     "correct": [
       false,
+      true,
       false,
       false,
-      false,
-      false,
+      true,
       false,
       false,
       false
@@ -5269,13 +5269,13 @@
       "vždy obsahujú aminokyseliny"
     ],
     "correct": [
+      true,
+      true,
       false,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -5297,9 +5297,9 @@
       false,
       false,
       false,
+      true,
       false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -5322,7 +5322,8 @@
       false,
       false,
       false,
-      false
+      false,
+      true
     ]
   },
   {
@@ -5343,7 +5344,7 @@
       false,
       false,
       false,
-      false,
+      true,
       false,
       false,
       false
@@ -5363,7 +5364,7 @@
       "70%"
     ],
     "correct": [
-      false,
+      true,
       false,
       false,
       false,
@@ -5390,7 +5391,7 @@
       false,
       false,
       false,
-      false,
+      true,
       false,
       false,
       false,
@@ -5413,12 +5414,12 @@
     "correct": [
       false,
       false,
+      true,
       false,
       false,
       false,
       false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -5437,10 +5438,10 @@
     "correct": [
       false,
       false,
+      true,
       false,
       false,
-      false,
-      false,
+      true,
       false,
       false
     ]
@@ -5459,7 +5460,7 @@
       "reduplikácia "
     ],
     "correct": [
-      false,
+      true,
       false,
       false,
       false,
@@ -5484,11 +5485,11 @@
     ],
     "correct": [
       false,
+      true,
       false,
       false,
       false,
-      false,
-      false,
+      true,
       false,
       false
     ]
@@ -5508,11 +5509,11 @@
     ],
     "correct": [
       false,
+      true,
       false,
       false,
       false,
-      false,
-      false,
+      true,
       false,
       false
     ]
@@ -5557,12 +5558,12 @@
     "correct": [
       false,
       false,
+      true,
       false,
       false,
-      false,
-      false,
-      false,
-      false
+      true,
+      true,
+      true
     ]
   },
   {
@@ -5580,10 +5581,10 @@
     ],
     "correct": [
       false,
+      true,
       false,
       false,
-      false,
-      false,
+      true,
       false,
       false,
       false
@@ -5603,9 +5604,9 @@
       "identifikácia "
     ],
     "correct": [
+      true,
       false,
-      false,
-      false,
+      true,
       false,
       false,
       false,
@@ -5627,14 +5628,14 @@
       "umožňujú šírenie odolnosti proti antibiotikám medzi baktériami "
     ],
     "correct": [
+      true,
       false,
+      true,
+      true,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -5651,10 +5652,10 @@
       "je odbor vyvíjajúci nové zariadenia pre vyšetrovanie činnosti organizmov in vitro "
     ],
     "correct": [
+      true,
       false,
       false,
-      false,
-      false,
+      true,
       false,
       false,
       false,
@@ -5676,9 +5677,9 @@
     ],
     "correct": [
       false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
       false,
       false,
       false,
@@ -5700,12 +5701,12 @@
     ],
     "correct": [
       false,
+      true,
       false,
       false,
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
       false
     ]
   },
@@ -5724,9 +5725,9 @@
     ],
     "correct": [
       false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
       false,
       false,
       false,
@@ -5748,7 +5749,7 @@
     ],
     "correct": [
       false,
-      false,
+      true,
       false,
       false,
       false,
@@ -5772,12 +5773,12 @@
     ],
     "correct": [
       false,
+      true,
       false,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -5796,12 +5797,12 @@
     ],
     "correct": [
       false,
+      true,
+      true,
       false,
       false,
       false,
-      false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -5821,9 +5822,9 @@
     "correct": [
       false,
       false,
+      true,
       false,
-      false,
-      false,
+      true,
       false,
       false,
       false
@@ -5845,10 +5846,10 @@
     "correct": [
       false,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
+      true,
+      true,
       false,
       false
     ]
@@ -5868,11 +5869,11 @@
     ],
     "correct": [
       false,
+      true,
+      true,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
+      true,
       false,
       false
     ]
@@ -5892,8 +5893,8 @@
     ],
     "correct": [
       false,
-      false,
-      false,
+      true,
+      true,
       false,
       false,
       false,
@@ -5915,13 +5916,13 @@
       "bakteriálne bunky si ich nemôžu vymieňať "
     ],
     "correct": [
+      true,
+      true,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
       false
     ]
   },
@@ -5940,12 +5941,12 @@
     ],
     "correct": [
       false,
+      true,
+      true,
       false,
       false,
       false,
-      false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -5963,13 +5964,13 @@
       "na určitom mieste jedného reťazca nukleotid s dusíkovou bázou adenínom, v druhom reťazci naproti nemu leží nukleotid s uracilom"
     ],
     "correct": [
+      true,
+      false,
+      true,
       false,
       false,
-      false,
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
       false
     ]
   },
@@ -5988,12 +5989,12 @@
     ],
     "correct": [
       false,
+      true,
       false,
       false,
       false,
       false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -6011,9 +6012,9 @@
       "do štyroch polypeptidových reťazcov "
     ],
     "correct": [
+      true,
       false,
-      false,
-      false,
+      true,
       false,
       false,
       false,
@@ -6035,14 +6036,14 @@
       "vinutím dvojzávitnice vzniká superhelix "
     ],
     "correct": [
+      true,
+      true,
+      true,
+      true,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -6060,13 +6061,13 @@
     ],
     "correct": [
       false,
+      true,
       false,
+      true,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -6083,14 +6084,14 @@
       "tRNA nesie informáciu pre zaradenie správnej aminokyseliny "
     ],
     "correct": [
+      true,
+      false,
+      false,
+      true,
       false,
       false,
       false,
-      false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -6109,10 +6110,10 @@
     "correct": [
       false,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
+      true,
+      true,
       false,
       false
     ]
@@ -6131,12 +6132,12 @@
       "je vo všetkých bunkách realizovaná rovnako "
     ],
     "correct": [
+      true,
+      false,
+      true,
       false,
       false,
-      false,
-      false,
-      false,
-      false,
+      true,
       false,
       false
     ]
@@ -6158,11 +6159,11 @@
       false,
       false,
       false,
+      true,
       false,
       false,
-      false,
-      false,
-      false
+      true,
+      true
     ]
   },
   {
@@ -6179,12 +6180,12 @@
       "katalyzujú ju špecifické enzýmy  – glykánsyntetázy "
     ],
     "correct": [
+      true,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
       false,
       false
     ]
@@ -6203,13 +6204,13 @@
       "počas starnutia "
     ],
     "correct": [
+      true,
+      false,
+      true,
       false,
       false,
       false,
-      false,
-      false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -6229,11 +6230,11 @@
     "correct": [
       false,
       false,
+      true,
       false,
       false,
-      false,
-      false,
-      false,
+      true,
+      true,
       false
     ]
   },
@@ -6253,9 +6254,9 @@
     "correct": [
       false,
       false,
+      true,
       false,
-      false,
-      false,
+      true,
       false,
       false,
       false
@@ -6277,7 +6278,7 @@
     "correct": [
       false,
       false,
-      false,
+      true,
       false,
       false,
       false,
@@ -6304,7 +6305,7 @@
       false,
       false,
       false,
-      false,
+      true,
       false,
       false
     ]
@@ -6326,7 +6327,7 @@
       false,
       false,
       false,
-      false,
+      true,
       false,
       false,
       false,
@@ -6347,13 +6348,13 @@
       "najmenej krvná skupina 0 "
     ],
     "correct": [
+      true,
       false,
       false,
       false,
       false,
       false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -6375,7 +6376,7 @@
       false,
       false,
       false,
-      false,
+      true,
       false,
       false,
       false
@@ -6396,13 +6397,13 @@
     ],
     "correct": [
       false,
+      true,
       false,
       false,
+      true,
+      true,
       false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -6420,13 +6421,13 @@
     ],
     "correct": [
       false,
+      true,
+      false,
+      true,
       false,
       false,
-      false,
-      false,
-      false,
-      false,
-      false
+      true,
+      true
     ]
   },
   {
@@ -6443,13 +6444,13 @@
       "súbor všetkých vlastností organizmu nezávisle od fenotypu "
     ],
     "correct": [
+      true,
+      true,
       false,
       false,
       false,
       false,
-      false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -6467,11 +6468,11 @@
       "nachádzajú sa iba v  prokaryotickej a  eukaryotickej bunke "
     ],
     "correct": [
+      true,
       false,
       false,
-      false,
-      false,
-      false,
+      true,
+      true,
       false,
       false,
       false
@@ -6492,13 +6493,13 @@
     ],
     "correct": [
       false,
+      true,
+      false,
+      true,
       false,
       false,
       false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -6520,9 +6521,9 @@
       false,
       false,
       false,
-      false,
-      false,
-      false
+      true,
+      true,
+      true
     ]
   },
   {
@@ -6540,13 +6541,13 @@
     ],
     "correct": [
       false,
+      true,
+      true,
       false,
       false,
       false,
-      false,
-      false,
-      false,
-      false
+      true,
+      true
     ]
   },
   {
@@ -6563,14 +6564,14 @@
       "samostatná biologická veda "
     ],
     "correct": [
+      true,
       false,
       false,
       false,
       false,
       false,
       false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -6588,8 +6589,8 @@
     ],
     "correct": [
       false,
-      false,
-      false,
+      true,
+      true,
       false,
       false,
       false,
@@ -6611,11 +6612,11 @@
       "patrí sem napríklad cystická fibróza"
     ],
     "correct": [
+      true,
       false,
       false,
       false,
-      false,
-      false,
+      true,
       false,
       false,
       false
@@ -6635,14 +6636,14 @@
       "pravdepodobnosť, že ich dieťa bude zdravé je väčšia ako, že bude choré "
     ],
     "correct": [
+      true,
       false,
+      true,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false
+      true,
+      true,
+      true
     ]
   },
   {
@@ -6663,10 +6664,10 @@
       false,
       false,
       false,
+      true,
       false,
       false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -6690,7 +6691,7 @@
       false,
       false,
       false,
-      false
+      true
     ]
   },
   {
@@ -6708,10 +6709,10 @@
     ],
     "correct": [
       false,
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
+      true,
       false,
       false,
       false
@@ -6731,11 +6732,11 @@
       "gonozómovo recesívne "
     ],
     "correct": [
+      true,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
+      true,
       false,
       false,
       false
@@ -6781,9 +6782,9 @@
     "correct": [
       false,
       false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
       false,
       false,
       false
@@ -6803,13 +6804,13 @@
       "v polyploidii u motýľov "
     ],
     "correct": [
+      true,
+      false,
+      true,
+      true,
       false,
       false,
-      false,
-      false,
-      false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -6828,13 +6829,13 @@
     ],
     "correct": [
       false,
+      true,
+      true,
+      true,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -6852,12 +6853,12 @@
     ],
     "correct": [
       false,
+      true,
       false,
       false,
       false,
       false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -6878,10 +6879,10 @@
       false,
       false,
       false,
+      true,
       false,
       false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -6899,14 +6900,14 @@
       "s rovnakou ako dcéru heterozygotne zdravú "
     ],
     "correct": [
+      true,
+      true,
       false,
       false,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -6923,13 +6924,13 @@
       "kodominantne A"
     ],
     "correct": [
+      true,
       false,
       false,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -6947,8 +6948,8 @@
       "fenotyp u eukaryotov "
     ],
     "correct": [
-      false,
-      false,
+      true,
+      true,
       false,
       false,
       false,
@@ -6971,14 +6972,14 @@
       "DNA "
     ],
     "correct": [
+      true,
       false,
       false,
       false,
       false,
       false,
       false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -6996,10 +6997,10 @@
     ],
     "correct": [
       false,
+      true,
+      true,
       false,
-      false,
-      false,
-      false,
+      true,
       false,
       false,
       false
@@ -7021,12 +7022,12 @@
     "correct": [
       false,
       false,
+      true,
+      true,
+      true,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -7046,11 +7047,11 @@
       false,
       false,
       false,
+      true,
       false,
       false,
       false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -7073,8 +7074,8 @@
       false,
       false,
       false,
-      false,
-      false
+      true,
+      true
     ]
   },
   {
@@ -7091,13 +7092,13 @@
       "odlišný od Bb "
     ],
     "correct": [
+      true,
       false,
       false,
       false,
       false,
-      false,
-      false,
-      false,
+      true,
+      true,
       false
     ]
   },
@@ -7118,10 +7119,10 @@
       false,
       false,
       false,
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
+      true,
       false
     ]
   },
@@ -7144,9 +7145,9 @@
       false,
       false,
       false,
+      true,
       false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -7163,14 +7164,14 @@
       "dochádza pri nich napr. k zámene jedného nukleotidu za neprirodzený nukleotid "
     ],
     "correct": [
+      true,
+      true,
+      true,
+      true,
+      true,
       false,
       false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -7188,13 +7189,13 @@
     ],
     "correct": [
       false,
+      true,
       false,
       false,
+      true,
       false,
       false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -7211,14 +7212,14 @@
       "sa označujú X a Y "
     ],
     "correct": [
+      true,
       false,
       false,
+      true,
+      true,
       false,
       false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -7239,10 +7240,10 @@
       false,
       false,
       false,
+      true,
       false,
       false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -7260,12 +7261,12 @@
     ],
     "correct": [
       false,
+      true,
+      true,
+      true,
       false,
       false,
-      false,
-      false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -7284,13 +7285,13 @@
     ],
     "correct": [
       false,
+      true,
+      false,
+      true,
+      true,
       false,
       false,
-      false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -7307,14 +7308,14 @@
       "dedičné ochorenie, ktor é je viazané na autozóm rovnako ako cystická fibróza "
     ],
     "correct": [
+      true,
       false,
       false,
+      true,
+      true,
       false,
       false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -7337,8 +7338,8 @@
       false,
       false,
       false,
-      false,
-      false
+      true,
+      true
     ]
   },
   {
@@ -7356,12 +7357,12 @@
     ],
     "correct": [
       false,
+      true,
+      false,
+      true,
       false,
       false,
-      false,
-      false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -7381,12 +7382,12 @@
     "correct": [
       false,
       false,
+      true,
+      true,
       false,
       false,
       false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -7404,9 +7405,9 @@
     ],
     "correct": [
       false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
       false,
       false,
       false,
@@ -7427,11 +7428,11 @@
       "áno, ale narodenie farboslepej dcéry je pravdepodobnejšie ako farboslepého syna "
     ],
     "correct": [
+      true,
       false,
       false,
       false,
-      false,
-      false,
+      true,
       false,
       false,
       false
@@ -7452,11 +7453,11 @@
     ],
     "correct": [
       false,
+      true,
       false,
       false,
-      false,
-      false,
-      false,
+      true,
+      true,
       false,
       false
     ]
@@ -7477,12 +7478,12 @@
     "correct": [
       false,
       false,
+      true,
+      true,
       false,
       false,
       false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -7499,12 +7500,12 @@
       "ochorenia sa prenášajú vždy iba na synov "
     ],
     "correct": [
+      true,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
       false,
       false
     ]
@@ -7525,7 +7526,7 @@
     "correct": [
       false,
       false,
-      false,
+      true,
       false,
       false,
       false,
@@ -7550,11 +7551,11 @@
       false,
       false,
       false,
+      true,
       false,
       false,
       false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -7575,10 +7576,10 @@
       false,
       false,
       false,
+      true,
+      true,
       false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -7597,12 +7598,12 @@
     "correct": [
       false,
       false,
+      true,
       false,
+      true,
+      true,
       false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -7621,10 +7622,10 @@
     "correct": [
       false,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
+      true,
+      true,
       false,
       false
     ]
@@ -7643,13 +7644,13 @@
       "dcéry prenášačky budú farboslepé, homozygotne zdravé dcéry budú rozlišovať farby, synovia budú farboslepí "
     ],
     "correct": [
+      true,
       false,
       false,
       false,
       false,
       false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -7668,12 +7669,12 @@
     ],
     "correct": [
       false,
+      true,
+      true,
       false,
       false,
       false,
-      false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -7695,10 +7696,10 @@
       false,
       false,
       false,
-      false,
-      false,
-      false,
-      false
+      true,
+      true,
+      true,
+      true
     ]
   },
   {
@@ -7715,14 +7716,14 @@
       "46 "
     ],
     "correct": [
+      true,
       false,
       false,
       false,
       false,
-      false,
-      false,
-      false,
-      false
+      true,
+      true,
+      true
     ]
   },
   {
@@ -7739,14 +7740,14 @@
       "môže byť dominantná alebo recesívna "
     ],
     "correct": [
+      true,
+      true,
+      false,
+      true,
       false,
       false,
       false,
-      false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -7764,12 +7765,12 @@
     ],
     "correct": [
       false,
+      true,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
       false
     ]
   },
@@ -7789,11 +7790,11 @@
     "correct": [
       false,
       false,
+      true,
       false,
       false,
       false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -7813,8 +7814,8 @@
     "correct": [
       false,
       false,
-      false,
-      false,
+      true,
+      true,
       false,
       false,
       false,
@@ -7836,11 +7837,11 @@
     ],
     "correct": [
       false,
+      true,
+      true,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
+      true,
       false,
       false
     ]
@@ -7861,10 +7862,10 @@
     "correct": [
       false,
       false,
+      true,
+      true,
       false,
-      false,
-      false,
-      false,
+      true,
       false,
       false
     ]
@@ -7887,10 +7888,10 @@
       false,
       false,
       false,
+      true,
       false,
-      false,
-      false,
-      false
+      true,
+      true
     ]
   },
   {
@@ -7907,10 +7908,10 @@
       "B a 0 za predpokladu, že jeden z rodičov má alelu 0 "
     ],
     "correct": [
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
+      true,
       false,
       false,
       false,
@@ -7931,12 +7932,12 @@
       "kvantita jadier "
     ],
     "correct": [
+      true,
+      true,
+      true,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
-      false,
+      true,
       false,
       false
     ]
@@ -7959,9 +7960,9 @@
       false,
       false,
       false,
+      true,
       false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -8004,11 +8005,11 @@
     ],
     "correct": [
       false,
+      true,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
       false,
       false
     ]
@@ -8027,11 +8028,11 @@
       "jedna tretina "
     ],
     "correct": [
+      true,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
+      true,
       false,
       false,
       false
@@ -8053,10 +8054,10 @@
     "correct": [
       false,
       false,
+      true,
+      true,
       false,
-      false,
-      false,
-      false,
+      true,
       false,
       false
     ]
@@ -8078,11 +8079,11 @@
       false,
       false,
       false,
+      true,
       false,
       false,
-      false,
-      false,
-      false
+      true,
+      true
     ]
   },
   {
@@ -8101,12 +8102,12 @@
     "correct": [
       false,
       false,
+      true,
+      false,
+      true,
       false,
       false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -8123,10 +8124,10 @@
       "mendelovými zákonmi "
     ],
     "correct": [
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
+      true,
       false,
       false,
       false,
@@ -8147,11 +8148,11 @@
       "gény, ktoré majú tendenciu mutovať "
     ],
     "correct": [
-      false,
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
+      true,
+      true,
       false,
       false,
       false
@@ -8172,12 +8173,12 @@
     ],
     "correct": [
       false,
+      true,
       false,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -8196,12 +8197,12 @@
     ],
     "correct": [
       false,
+      true,
       false,
       false,
       false,
       false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -8221,9 +8222,9 @@
     "correct": [
       false,
       false,
+      true,
       false,
-      false,
-      false,
+      true,
       false,
       false,
       false
@@ -8244,12 +8245,12 @@
     ],
     "correct": [
       false,
+      true,
       false,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -8267,13 +8268,13 @@
       "súbor génov, pre ktorý platí princíp segregácie v amitóze"
     ],
     "correct": [
+      true,
+      false,
+      true,
       false,
       false,
       false,
-      false,
-      false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -8293,7 +8294,7 @@
     "correct": [
       false,
       false,
-      false,
+      true,
       false,
       false,
       false,
@@ -8318,11 +8319,11 @@
       false,
       false,
       false,
+      true,
       false,
       false,
       false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -8340,7 +8341,7 @@
     ],
     "correct": [
       false,
-      false,
+      true,
       false,
       false,
       false,
@@ -8363,13 +8364,13 @@
       "ich potomstvo je heteronómne"
     ],
     "correct": [
+      true,
+      true,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
       false
     ]
   },
@@ -8387,13 +8388,13 @@
       "zabezpečujú nededičnú premenlivosť "
     ],
     "correct": [
+      true,
+      true,
+      true,
+      true,
       false,
       false,
-      false,
-      false,
-      false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -8412,11 +8413,11 @@
     ],
     "correct": [
       false,
+      true,
+      true,
       false,
       false,
-      false,
-      false,
-      false,
+      true,
       false,
       false
     ]
@@ -8435,11 +8436,11 @@
       "homozygotne 0 s pravdepodobnosťou 25% "
     ],
     "correct": [
+      true,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
       false,
       false,
       false
@@ -8459,7 +8460,7 @@
       "mnohonásobný alelizmus "
     ],
     "correct": [
-      false,
+      true,
       false,
       false,
       false,
@@ -8485,11 +8486,11 @@
     "correct": [
       false,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
       false
     ]
   },
@@ -8509,10 +8510,10 @@
     "correct": [
       false,
       false,
+      true,
       false,
       false,
-      false,
-      false,
+      true,
       false,
       false
     ]
@@ -8531,12 +8532,12 @@
       "telesná výška "
     ],
     "correct": [
+      true,
       false,
+      true,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
+      true,
       false,
       false
     ]
@@ -8556,8 +8557,8 @@
     ],
     "correct": [
       false,
-      false,
-      false,
+      true,
+      true,
       false,
       false,
       false,
@@ -8579,14 +8580,14 @@
       "vzniká náhodnou segregáciou materských a otcovských chromozómov v anafáze meiózy pri tvorbe gamét"
     ],
     "correct": [
+      true,
+      true,
       false,
       false,
       false,
       false,
-      false,
-      false,
-      false,
-      false
+      true,
+      true
     ]
   },
   {
@@ -8603,13 +8604,13 @@
       "50% bez ohľadu na genotyp manželky "
     ],
     "correct": [
+      true,
+      true,
       false,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -8628,12 +8629,12 @@
     ],
     "correct": [
       false,
+      true,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
       false
     ]
   },
@@ -8651,14 +8652,14 @@
       "100% ak je muž homozygot "
     ],
     "correct": [
+      true,
       false,
       false,
       false,
       false,
       false,
       false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -8675,13 +8676,13 @@
       "homozygotne 0 s pravdepodobnosťou 100%"
     ],
     "correct": [
+      true,
       false,
       false,
+      true,
       false,
       false,
-      false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -8700,12 +8701,12 @@
     ],
     "correct": [
       false,
+      true,
       false,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -8724,13 +8725,13 @@
     ],
     "correct": [
       false,
+      true,
+      true,
       false,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -8749,12 +8750,12 @@
     "correct": [
       false,
       false,
+      true,
+      false,
+      true,
       false,
       false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -8771,11 +8772,11 @@
       "rovnaký ako u homozygotov dominantných"
     ],
     "correct": [
+      true,
       false,
       false,
       false,
-      false,
-      false,
+      true,
       false,
       false,
       false
@@ -8796,7 +8797,7 @@
     ],
     "correct": [
       false,
-      false,
+      true,
       false,
       false,
       false,
@@ -8819,13 +8820,13 @@
       "pri úplnej dominancii majú všetci potomkovia rovnaký genotyp, ako jeden z  rodičov "
     ],
     "correct": [
+      true,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
       false
     ]
   },
@@ -8844,8 +8845,8 @@
     ],
     "correct": [
       false,
-      false,
-      false,
+      true,
+      true,
       false,
       false,
       false,
@@ -8867,13 +8868,13 @@
       "všetci potomkovia (hybridi) sa musia štiepiť v pomere 1: 1 "
     ],
     "correct": [
+      true,
       false,
       false,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -8891,12 +8892,12 @@
       "jadrá všetkých telových buniek jedinca (za normálnych okolností) nemajú rovnakú chromozómovú výbavu "
     ],
     "correct": [
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
       false,
       false
     ]
@@ -8915,13 +8916,13 @@
       "jeho vznik pri krížení recesívneho homozygota s heterozygotom je rovnako pravdepodobný ako vznik dominantného homozygota "
     ],
     "correct": [
+      true,
+      true,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
       false
     ]
   },
@@ -8944,9 +8945,9 @@
       false,
       false,
       false,
+      true,
       false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -8963,10 +8964,10 @@
       "AaBbCCDdEeFf je heterozygot pre všetky uvedené znaky "
     ],
     "correct": [
+      true,
+      true,
       false,
-      false,
-      false,
-      false,
+      true,
       false,
       false,
       false,
@@ -8987,8 +8988,8 @@
       "heterozygotne 0, ak má matka homozygotne B"
     ],
     "correct": [
-      false,
-      false,
+      true,
+      true,
       false,
       false,
       false,
@@ -9011,14 +9012,14 @@
       "vyskytujú sa aj u človeka "
     ],
     "correct": [
+      true,
+      false,
+      false,
+      true,
       false,
       false,
       false,
-      false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -9036,10 +9037,10 @@
     ],
     "correct": [
       false,
+      true,
+      true,
       false,
-      false,
-      false,
-      false,
+      true,
       false,
       false,
       false
@@ -9061,9 +9062,9 @@
     "correct": [
       false,
       false,
+      true,
       false,
-      false,
-      false,
+      true,
       false,
       false,
       false
@@ -9084,13 +9085,13 @@
     ],
     "correct": [
       false,
+      true,
       false,
       false,
       false,
       false,
       false,
-      false,
-      false
+      true
     ]
   },
   {
@@ -9107,14 +9108,14 @@
       "je tvorená aj gonozómami "
     ],
     "correct": [
+      true,
+      true,
       false,
       false,
       false,
       false,
-      false,
-      false,
-      false,
-      false
+      true,
+      true
     ]
   },
   {
@@ -9132,11 +9133,11 @@
     ],
     "correct": [
       false,
+      true,
+      true,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
+      true,
       false,
       false
     ]
@@ -9155,11 +9156,11 @@
       "tri štvrtiny "
     ],
     "correct": [
+      true,
       false,
       false,
       false,
-      false,
-      false,
+      true,
       false,
       false,
       false
@@ -9183,7 +9184,7 @@
       false,
       false,
       false,
-      false,
+      true,
       false,
       false,
       false
@@ -9203,14 +9204,14 @@
       "AB a AB"
     ],
     "correct": [
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
     ]
   },
   {
@@ -9228,7 +9229,7 @@
     ],
     "correct": [
       false,
-      false,
+      true,
       false,
       false,
       false,
@@ -9258,7 +9259,7 @@
       false,
       false,
       false,
-      false
+      true
     ]
   },
   {
@@ -9277,11 +9278,11 @@
     "correct": [
       false,
       false,
+      true,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -9302,10 +9303,10 @@
       false,
       false,
       false,
+      true,
       false,
       false,
-      false,
-      false,
+      true,
       false
     ]
   },
@@ -9323,11 +9324,11 @@
       "jedna štvrtina "
     ],
     "correct": [
+      true,
       false,
       false,
       false,
-      false,
-      false,
+      true,
       false,
       false,
       false
@@ -9350,11 +9351,11 @@
       false,
       false,
       false,
+      true,
+      true,
       false,
-      false,
-      false,
-      false,
-      false
+      true,
+      true
     ]
   },
   {

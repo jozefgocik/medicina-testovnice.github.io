@@ -16,15 +16,16 @@
   button.option{padding:10px;border-radius:6px;border:1px solid #ccc;background:#fff;text-align:left;}
   button.option.correct{background:#dff0d8;border-color:#3c763d}
   button.option.wrong{background:#f2dede;border-color:#a94442}
-  .controls{display:flex;gap:8px;align-items:center;margin-top:12px}
-  /* Styles for the initial subject selection buttons */
+  .controls{display:flex;gap:8px;align-items:center;margin-top:12px;flex-wrap:wrap;}
   #selection-screen .controls button {
     padding: 12px 24px;
     font-size: 16px;
-    flex-grow: 1; /* Makes buttons fill the space */
+    flex-grow: 1;
   }
   .small{font-size:13px;color:#666}
   .muted{color:#666;font-size:13px}
+  input[type="number"]{width:80px;padding:6px;border:1px solid #ccc;border-radius:6px;}
+  .error-msg{color:#a94442;font-size:13px;margin-top:6px;}
 </style>
 </head>
 <body>
@@ -50,23 +51,14 @@ const loadBiologyBtn = document.getElementById('loadBiology');
 
 // --- EVENT LISTENERS ---
 loadChemistryBtn.addEventListener('click', () => {
-  // Load the chemistry JSON and start the quiz with the title "Chémia"
   initializeQuiz('quiz_questions_ch.json', 'Chémia');
 });
 
 loadBiologyBtn.addEventListener('click', () => {
-  // Load the biology JSON and start the quiz with the title "Biológia"
   initializeQuiz('quiz_questions_b.json', 'Biológia');
 });
 
-
-/**
- * Loads the specified JSON file and starts the quiz app.
- * @param {string} filename - The name of the JSON file to load.
- * @param {string} subjectName - The name of the subject for the quiz title.
- */
 async function initializeQuiz(filename, subjectName) {
-  // Hide the selection screen and show the app container
   selectionScreen.style.display = 'none';
   appContainer.style.display = 'block';
 
@@ -74,7 +66,6 @@ async function initializeQuiz(filename, subjectName) {
     const questions = await loadData(filename);
     startApp(questions, subjectName);
   } catch (e) {
-    // If there's an error, display it in the app container
     appContainer.innerHTML = `
       <div class="card">
         <strong>Chyba pri načítaní súboru: ${filename}</strong>
@@ -84,25 +75,15 @@ async function initializeQuiz(filename, subjectName) {
   }
 }
 
-/**
- * Fetches and parses the JSON data from a file.
- * @param {string} filename - The name of the file to fetch.
- */
 async function loadData(filename) {
   const resp = await fetch(filename);
-  if (!resp.ok) {
-    throw new Error(`HTTP chyba: ${resp.status} ${resp.statusText}`);
-  }
+  if (!resp.ok) throw new Error(`HTTP chyba: ${resp.status} ${resp.statusText}`);
   return await resp.json();
 }
 
-/**
- * Renders and manages the quiz interface.
- * @param {Array} questions - An array of question objects.
- * @param {string} subjectName - The name of the subject to display.
- */
 function startApp(questions, subjectName) {
   let currentIndex = 0;
+  let errorTimeout = null;
 
   function render() {
     const q = questions[currentIndex];
@@ -116,8 +97,16 @@ function startApp(questions, subjectName) {
           <button id="prev">◀️ Predošlá</button>
           <button id="next">Ďalšia ▶️</button>
           <div style="flex:1"></div>
+
+          <!-- Search bar for question number -->
+          <label class="small">Ísť na otázku:
+            <input type="number" id="jumpInput" min="1" max="${questions.length}" />
+          </label>
+          <button id="jumpBtn">➡️ Prejsť</button>
+
           <label class="small"><input type="checkbox" id="showCorrect"/> Ukázať správne</label>
         </div>
+        <div id="errorMsg" class="error-msg" style="display:none;"></div>
       </div>
     `;
 
@@ -131,46 +120,58 @@ function startApp(questions, subjectName) {
       optionsContainer.appendChild(btn);
     });
 
-    // Navigation and control event listeners
     document.getElementById('prev').onclick = () => {
       if (currentIndex > 0) {
         currentIndex--;
         render();
       }
     };
+
     document.getElementById('next').onclick = () => {
       if (currentIndex < questions.length - 1) {
         currentIndex++;
         render();
       }
     };
+
     document.getElementById('showCorrect').onchange = (e) => {
-      if (e.target.checked) {
-        revealCorrect();
+      if (e.target.checked) revealCorrect();
+      else resetStyles();
+    };
+
+    // --- Jump to specific question ---
+    const jumpBtn = document.getElementById('jumpBtn');
+    const jumpInput = document.getElementById('jumpInput');
+    const errorMsg = document.getElementById('errorMsg');
+
+    jumpBtn.onclick = () => {
+      const val = parseInt(jumpInput.value, 10);
+      if (!isNaN(val) && val >= 1 && val <= questions.length) {
+        currentIndex = val - 1;
+        render();
       } else {
-        resetStyles();
+        showError(`Zadajte číslo medzi 1 a ${questions.length}.`);
       }
     };
+
+    function showError(msg) {
+      errorMsg.textContent = msg;
+      errorMsg.style.display = 'block';
+      clearTimeout(errorTimeout);
+      errorTimeout = setTimeout(() => (errorMsg.style.display = 'none'), 2500);
+    }
   }
 
   function handleSelect(btn, i, q) {
-    // This new version only disables the specific button you click on.
-    btn.disabled = true; 
-
-    if (q.correct[i]) {
-      btn.classList.add('correct');
-    } else {
-      btn.classList.add('wrong');
-      // revealCorrect(); // Show the correct answer if the user is wrong
-    }
+    btn.disabled = true;
+    if (q.correct[i]) btn.classList.add('correct');
+    else btn.classList.add('wrong');
   }
 
   function revealCorrect() {
     document.querySelectorAll('.option').forEach(b => {
       const i = parseInt(b.dataset.index, 10);
-      if (questions[currentIndex].correct[i]) {
-        b.classList.add('correct');
-      }
+      if (questions[currentIndex].correct[i]) b.classList.add('correct');
     });
   }
 
@@ -181,7 +182,6 @@ function startApp(questions, subjectName) {
     });
   }
 
-  // Initial render of the first question
   render();
 }
 </script>

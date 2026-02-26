@@ -2355,15 +2355,14 @@
     "number": 99,
     "question": "Dismutácia je reakcia :",
     "options": [
-      "oxidačno -redukčná",
+      "oxidačno-redukčná",
       "pri ktorej jedna látka (molekuly tej istej zlúčeniny, rovnaké ióny alebo atómy toho istého  prvku) prijíma i odovzdáva elektróny",
       "pri ktorej  rovnaké ióny alebo atómy toho istého prvku podliehajú oxidácii i redukcii",
-      "Cl2 + H2O --- HClO + HCl",
-      "2benzén-CH=O --OH- benzén-CH2OH + benzén-COOˇ-",
-      "2 KMnO4 + 16 HCl --- 5 Cl2 + 2 MnCl2 + 2 KCl + 8 H2O",
-      "3 K2MnO4 + 2 H2O --- 2 KMnO4 + MnO2 + 4 KOH",
-      "3 HNO2 --- HNO3 + 2 NO + H2O",
-      ""
+      "Cl2 + H2O --> HClO + HCl",
+      "2benzén-CH = O --OH-> benzén-CH2OH + benzén-COO-",
+      "2 KMnO4 + 16 HCl --> 5 Cl2 + 2 MnCl2 + 2 KCl + 8 H2O",
+      "3 K2MnO4 + 2 H2O --> 2 KMnO4 + MnO2 + 4 KOH",
+      "3 HNO2 --> HNO3 + 2 NO + H2O"
     ],
     "correct": [
       true,
@@ -4735,12 +4734,11 @@
       "patria medzi p3 prvky",
       "duík a fosfor patria medzi základné biogénne prvky",
       "majú vo valenčnej vrstve päť elektrónov",
-      "sú:N,P,V,Nb,Ta",
+      "sú: N,P,V,Nb,Ta",
       "majú elektróny rozložené vo vrstvách K,L a M",
       "majú vo valenčnej vrstve elektrónovú konfiguráciu ns2np3",
       "sa všetky nachádzajú v prírode len v zlúčeninách",
-      "sú:dusík,fosfor,arzén,antimón a bizmut",
-      ""
+      "sú: dusík,fosfor,arzén,antimón a bizmut"
     ],
     "correct": [
       true,
@@ -5387,8 +5385,8 @@
       "patria medzi s1 prvky",
       "sa tiež nazývajú alkalické kovy",
       "majú jeden valenčný elektrón p",
-      "nachádzajú sa v I.A (",
-      ""
+      "nachádzajú sa v I.A (1.) skupine periodickej sústavy prvkov",
+      "patria medzi prvky s vysokou hodnotou elektronegativity"
     ],
     "correct": [
       false,
@@ -5481,10 +5479,10 @@
       "nazývajú sa tiež alkalické kovy",
       "patria medzi prvky s nízkou hodnotou elektronegativity",
       "v prírode sa nachádzajú voľné aj viazané v zlúčeninách",
-      "sú reaktívnejšie ako prvky umiestnené v II.B (",
-      "",
-      "",
-      ""
+      "sú reaktívnejšie ako prvky umiestnené v II.B (12.) skupine periodickej sústavy prvkov",
+      "sú silné oxidovadlá",
+      "majú atómy, ktoré sa môžu oxidovat podla všeobecnej rovnice: M —-> M2+ + 2 e",
+      "tvoria zlúčeniny, ktoré sú všetky rozpustné vo vode"
     ],
     "correct": [
       true,
@@ -5507,8 +5505,8 @@
       "ich atómy majú o jeden alebo dva elektróny viacej ako atómy predchádzajúcich vzácnych  plynov",
       "atómy prvkov s2 majú v zlúčeninách typické oxidačn é číslo II",
       "ich atómy majú o jeden alebo dva elektróny menej ako atómy predchádzajúcich vzácnych  plynov",
-      "nachádzajú sa v I.A a II.A. (",
-      ""
+      "nachádzajú sa v I.A a II.A. (1. a 2.) skupine periodickej sústavy prvkov (okrem He)",
+      "na väzbu s inými prvkami poskytujú ich atómy elektrónový pár"
     ],
     "correct": [
       true,
@@ -7205,14 +7203,14 @@
     "number": 301,
     "question": "Aké je pH, resp. pOH roztoku, ktorého 5 litrov obsahuje 0,17 g hydroxidových \niónov? Aká je koncentrácia H3O+ a OH- iónov v tomto roztoku?  Mr(OH-) = 17;  \n(log 5 = 0,699; log 1,7 = 0,230;  log 2 = 0,301)",
     "options": [
-      "pH = 11,3 01",
+      "pH = 11,301",
       "pH = 10,699",
-      "c(OH-) =",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "c(OH-) = 2.10^-3 mol/1",
+      "pOH = 2,301",
+      "pOH = 2,699",
+      "c(OH-) = 2.10^-6 mol/1",
+      "c(H3O+) = 5 mmol/l",
+      "c(H3O+) = 5.10^-6 umol/l"
     ],
     "correct": [
       true,
@@ -7227,16 +7225,16 @@
   },
   {
     "number": 302,
-    "question": "Máme roztoky: Roztok A s hodnotou pOH = 10 a roztok B s hodnotou pOH =",
+    "question": "Máme roztoky: Roztok A s hodnotou pOH = 10 a roztok B s hodnotou рОН = 12. O roztokoch môžeme povedat':",
     "options": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "roztok A je kyslejší ako roztok B",
+      "pH roztoku B je nižšie ako roztoku A",
+      "pH roztoku A je o 2 vyššie ako roztoku B",
+      "v roztoku A je 100-krát vyššia koncentrácia H3O* iónov ako v roztoku B",
+      "v roztoku A je c(OH) = 1.104 mol/l",
+      "v roztoku B je c(OH-) = 1.10-2 mol/l",
+      "V roztoku A je c(H,Ot) = 1.104 mol/l",
+      "v roztoku B je c(H,Ot) = 10 mmol/l"
     ],
     "correct": [
       false,
@@ -7398,13 +7396,13 @@
     "question": "Krv má obsahovať 140 mmol.l-1 NaCl. Aké množstvo NaCl treba dodať pacientovi \n(ktorý má 5 litrov krvi), ak v krvi pacienta je 120 mmol.l-1 NaCl? V akom objeme \nfyziologického roztoku ( c=0,150 mol/l) sa pot rebný NaCl podá?  Mr(NaCl) = 58",
     "options": [
       "0,1 mol",
-      "0,1 mol.l-1",
+      "0,1 mol.l^-1",
       "5,8 g NaCl",
       "0,58 g NaCl",
-      "5,",
-      "",
-      "",
-      ""
+      "5,8.10^-3 kg",
+      "100 mmol",
+      "100 mmol.l-1",
+      "666 ml"
     ],
     "correct": [
       true,
@@ -7423,12 +7421,12 @@
     "options": [
       "98,2 %",
       "1,2 %",
-      "9,",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "9,05.10^-3 kg",
+      "0,6.10^-3 kg",
+      "9,05 g",
+      "0,6 g",
+      "99,4 %",
+      "98,2 g"
     ],
     "correct": [
       false,
@@ -7452,7 +7450,7 @@
       "14,2 g",
       "0,1 mol",
       "2,24 litra",
-      "200 mmol         75"
+      "200 mmol"
     ],
     "correct": [
       true,
@@ -7548,7 +7546,7 @@
       "0,3 mol KOH",
       "600 mg H2",
       "0,6 mol KOH",
-      "0,6 mol H2        76"
+      "0,6 mol H2"
     ],
     "correct": [
       true,
@@ -7635,16 +7633,16 @@
   },
   {
     "number": 319,
-    "question": "V titračnej banke máme presne 30 cm3 roztoku LiOH. Na jeho neutralizáciu \npotrebujeme 21 cm3 roztoku kyseliny chlorovodíkovej, ktorá má koncentráciu  \n0,1 mol.dm-",
+    "question": "V titračnej banke máme presne 30 cm3 roztoku LiOH. Na jeho neutralizáciu \npotrebujeme 21 cm3 roztoku kyseliny chlorovodíkovej, ktorá má koncentráciu  \n0,1 mol.dm^-3. Aká je koncentrácia roztoku LiOH?",
     "options": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "0,140 mol.l^-1",
+      "0,070 mol.l^-1",
+      "70 mmol.l^-1",
+      "140 mmol.l^-1",
+      "2,1 mol.l^-1",
+      "0,21 mol.l^-1",
+      "1,4.10-4 mol.l^-1",
+      "7.10-2 mol.l^-1"
     ],
     "correct": [
       false,
@@ -7683,16 +7681,16 @@
   },
   {
     "number": 321,
-    "question": "V titračnej banke máme presne 10 cm3 roztoku CsOH. Na jeho neutralizáciu \npotrebujeme 25 cm3 kyseliny sírovej s koncentráciou 0,30 mol.dm-",
+    "question": "V titračnej banke máme presne 10 cm3 roztoku CsOH. Na jeho neutralizáciu \npotrebujeme 25 cm3 kyseliny sírovej s koncentráciou 0,30 mol.dm-3. Aká je koncentrácia CsOH v roztoku a koľko CsOH obsahuje jeho roztok pred neutralizáciou? Mr(CsOH) = 150",
     "options": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "750 mmol/l",
+      "0,75 mol/l",
+      "1,5 mol/l",
+      "2 mol/l",
+      "225 g CsOH",
+      "1,125 g CsOH",
+      "2,25 g CsOH",
+      "1125 mg CsOH"
     ],
     "correct": [
       false,
@@ -7740,7 +7738,7 @@
       "3 mol",
       "60 mol",
       "120 mol",
-      "90 mol         78"
+      "90 mol"
     ],
     "correct": [
       false,
@@ -7810,9 +7808,9 @@
       "K = 4",
       "[N2] = 3,5 mol/l",
       "[H2] = 5 mol/l",
-      "K = 4,",
-      "",
-      ""
+      "K = 4,15.10^-2",
+      "[N2] = 8,5 mol/l",
+      "[H2] = 19 mol/l"
     ],
     "correct": [
       false,
@@ -7851,16 +7849,16 @@
   },
   {
     "number": 328,
-    "question": "Reakcia 2 SO2 + O2 \n  2 SO3 má východiskovú koncentráciu SO2 0,4 mo l.l-1  \na O2 0,2 mol.l-",
+    "question": "Reakcia 2 SO2 + O2 \n  2 SO3 má východiskovú koncentráciu SO2 0,4 mo l.l-1  \na O2 0,2 mol.l-1. V rovnovážnom stave sa zistila koncentrácia SO2 0,1 mol.l-1. Vypočítajte koncentráciu (mol.l-1) SO3 a kyslíka v rovnovážnom stave a rovnovážnu konštantu tejto reakcie:",
     "options": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "K = 10",
+      "K = 180",
+      "K = 60",
+      "[O2] = 0,05",
+      "[O2] = 0,1",
+      "[SO3] = 0,15",
+      "[SO3] = 0,2",
+      "[SO3] = 0,3"
     ],
     "correct": [
       false,
@@ -7899,16 +7897,16 @@
   },
   {
     "number": 330,
-    "question": "Rovnováha reakcie H2 + I2 \n  2HI sa ustálila pri koncentráciách [H2] = 0,50 \nmol.l-1, [I2] = 0,30 mol.l-1 a [HI] = 1,6 mol.l-",
+    "question": "Rovnováha reakcie H2 + I2 \n  2HI sa ustálila pri koncentráciách [H2] = 0,50 \nmol.l-1, [I2] = 0,30 mol.l-1 a [HI] = 1,6 mol.l-1. Vypočítajte východiskové koncentrácie (mol.l-1) jódu a vodíka a označte správne koncentrácie jednotlivých látok. Označte správnu hodnotu rovnovážnej konštanty reakcie:",
     "options": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "[H2] = 1,1",
+      "[I2] = 1,1",
+      "[H2] = 1,6",
+      "K = 0,56",
+      "[H2] = 1,3",
+      "[I2] = 1,3",
+      "[HI] = 0,8",
+      "K = 17,067"
     ],
     "correct": [
       false,
@@ -8211,16 +8209,16 @@
   },
   {
     "number": 343,
-    "question": "Aký objem vzduchu treba pri štandardných podmienkach k produkcii takého \nmnožstva CO2, ktoré sa spotrebuje na prípravu 0,9 g glukózy v procese fotosyntézy? \nVzduch obsahuje 0,03 objemových % CO",
+    "question": "Aký objem vzduchu treba pri štandardných podmienkach k produkcii takého \nmnožstva CO2, ktoré sa spotrebuje na prípravu 0,9 g glukózy v procese fotosyntézy? \nVzduch obsahuje 0,03 objemových % CO2. Aké množstvo CO2 je potrebné na reakciu? Ar(H) = 1; Ar(O) = 16; Ar(C) = 12",
     "options": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "2240 litrov vzduchu",
+      "2240 dm3 vzduchu",
+      "2240 ml vzduchu",
+      "672 ml CO2",
+      "0,672 litra CO2",
+      "672 litrov CO2",
+      "6 mol CO2",
+      "1,32 g CO2"
     ],
     "correct": [
       true,
@@ -8339,8 +8337,8 @@
       "3,9 g C6H10",
       "7,8 g C6H6",
       "3,9 g C6H6",
-      "3,",
-      ""
+      "3,9.10^-3 kg C6H6",
+      "3,9 g C6H12"
     ],
     "correct": [
       false,
@@ -8364,7 +8362,7 @@
       "16,83 g CH3Cl",
       "16,83 g CHCl3",
       "0,333 mol CHCl3",
-      "16,83 g CH2Cl2        85"
+      "16,83 g CH2Cl2"
     ],
     "correct": [
       false,
@@ -8379,16 +8377,16 @@
   },
   {
     "number": 350,
-    "question": "Vypo čítajte hmotnosť toluénu, ktorý je potrebný na prípravu 113,5 g \ntrinitrotoluénu (TNT), ak výťažok produktu je 50 % teoretického množstva.   \nAr(N) = 14; Ar(C) = 12; Ar(H) = 1; Ar(O) = 16; Mr(TNT) = 227",
+    "question": "Vypočítajte hmotnosť toluénu, ktorý je potrebný na prípravu 113,5 g \ntrinitrotoluénu (TNT), ak výťažok produktu je 50 % teoretického množstva.   \nAr(N) = 14; Ar(C) = 12; Ar(H) = 1; Ar(O) = 16; Mr(TNT) = 227",
     "options": [
       "92 g",
       "184 g",
       "92 mg",
       "0,092 kg",
       "92 kg",
-      "",
-      "",
-      ""
+      "92.103 mg",
+      "92 µg",
+      "92.10-3 kg"
     ],
     "correct": [
       true,
@@ -8403,16 +8401,16 @@
   },
   {
     "number": 351,
-    "question": "Na hydrolýzu 6 g neznámeho esteru kyseliny mravčej sa spotreboval objem 50 ml \nroztoku hydroxidu sodného s koncentráciou 2 mol.l-",
+    "question": "Na hydrolýzu 6 g neznámeho esteru kyseliny mravčej sa spotreboval objem 50 ml \nroztoku hydroxidu sodného s koncentráciou 2 mol.l-1. Určte, o ktorý ester ide. Mr(NaOH) = 40; Ar(C) = 12; Ar(O) = 16; Ar(H) = 1",
     "options": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "mravčan metylový",
+      "mravčan etylový",
+      "CH3COOCH3",
+      "HCOOCH3",
+      "HCOOC2H5",
+      "CH3COONa",
+      "metylester kyseliny mravčej",
+      "CH3OOCH"
     ],
     "correct": [
       true,
@@ -8460,7 +8458,7 @@
       "66 g C6H5COOK",
       "0,5 mol C6H5OK",
       "0,5 mol C6H5COOK",
-      "0,066 kg C6H5OK        86"
+      "0,066 kg C6H5OK"
     ],
     "correct": [
       false,
@@ -8532,7 +8530,7 @@
       "1 mol C H3CH2OH",
       "0,25 mol C2H5OH",
       "1 mol CH3OH",
-      "46 g CH3OH        87"
+      "46 g CH3OH"
     ],
     "correct": [
       false,
@@ -8838,13 +8836,13 @@
     "question": "Ktoré z uvedených zlúčenín obsahujú terciárny atóm uhlíka:",
     "options": [
       "CH3-CH2-OH",
-      "c)",
-      "(CH3)3C-OH",
-      "HO-CH2-CH2-OH      90",
-      "g)",
-      "Cl3C-COOH",
-      "",
-      ""
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE"
     ],
     "correct": [
       false,
@@ -8868,7 +8866,7 @@
       "n-pentán a izopentán",
       "CH3CH2OH  a CH3-O-CH3",
       "butanón a propanón",
-      ""
+      "NONE"
     ],
     "correct": [
       true,
@@ -8933,14 +8931,14 @@
     "number": 373,
     "question": "Z uvedených štruktúr je cis -izomérom:",
     "options": [
-      "b)",
-      "91",
-      "e)",
-      "g)",
-      "",
-      "",
-      "",
-      ""
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE"
     ],
     "correct": [
       true,
@@ -8957,14 +8955,14 @@
     "number": 374,
     "question": "Z uvedených štruktúr je trans -izomérom:",
     "options": [
-      "b)",
-      "d)",
-      "f)",
-      "h)",
-      "",
-      "",
-      "",
-      ""
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE"
     ],
     "correct": [
       true,
@@ -8983,7 +8981,7 @@
     "options": [
       "konštitučné izoméry",
       "tautoméry",
-      "etylester kyseliny etánovej       92",
+      "etylester kyseliny etánovej",
       "rovnakú zlúčeninu",
       "etylester kyseliny octovej",
       "octan etylový",
@@ -9005,14 +9003,14 @@
     "number": 376,
     "question": "Izomérne dvojice predstavujú štruktúry:",
     "options": [
-      "b) CH3-O-CH2-CH3   a   CH3-CH2-O-CH3",
-      "d)   a  CH3-CH2-CH3",
-      "f)",
-      "h)",
-      "",
-      "",
-      "",
-      ""
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE"
     ],
     "correct": [
       false,
@@ -9029,14 +9027,14 @@
     "number": 377,
     "question": "Izomérne dvojice predstavujú štruktúry:",
     "options": [
-      "b)",
-      "d)  H3C-CH2-O-CH2-CH3  a  CH3-O-CH2-CH2-CH3",
-      "CH3OCH3  a  C2H5OH",
-      "CH3CHO  a  CH2=CHO",
-      "h) CHCl3  a  CH3Cl",
-      "",
-      "",
-      ""
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE"
     ],
     "correct": [
       true,
@@ -9056,7 +9054,7 @@
       "2-pentén (pent -2-én)",
       "1-chlór -1-propén (1 -chlórprop -1-én)",
       "1,3,5 -hexatrién (hexa -1,3,5 -trién)",
-      "1-pentén (pent -1-én)      93",
+      "1-pentén (pent -1-én)",
       "propén",
       "3-hexén (hex -3-én)",
       "2-hexén (hex -2-én)",
@@ -9083,8 +9081,8 @@
       "CH3-C*H(OH) -COOH",
       "CH2(OH)C*H(OH)CHO",
       "HO- CH2-C*O-CH2OH",
-      "h)",
-      ""
+      "NONE",
+      "NONE"
     ],
     "correct": [
       false,
@@ -9101,14 +9099,14 @@
     "number": 380,
     "question": "Ktoré z uvedených zlúčenín sú opticky aktívne:",
     "options": [
-      "b)",
-      "d)",
-      "f)",
-      "h)",
-      "",
-      "",
-      "",
-      ""
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE"
     ],
     "correct": [
       true,
@@ -9125,14 +9123,14 @@
     "number": 381,
     "question": "Ktoré z uvedených zlúčenín sú opticky aktívne:",
     "options": [
-      "b)",
-      "d)",
-      "94",
-      "g)",
-      "",
-      "",
-      "",
-      ""
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE"
     ],
     "correct": [
       true,
@@ -9173,14 +9171,14 @@
     "number": 383,
     "question": "Ktorá z uvedených zlúčenín je opticky aktívna:",
     "options": [
-      "b)",
-      "d)",
-      "f)",
-      "h)",
-      "",
-      "",
-      "",
-      ""
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE"
     ],
     "correct": [
       true,
@@ -9204,7 +9202,7 @@
       "reaktívnejšie ako alkány",
       "nenasýtené",
       "citlivé voči oxidácii",
-      "ktoré s kovmi tvoria acetylidy         95"
+      "ktoré s kovmi tvoria acetylidy"
     ],
     "correct": [
       true,
@@ -9243,7 +9241,7 @@
   },
   {
     "number": 386,
-    "question": "Zlúčenine vzorca \n  priraďte správny systémový alebo t riviálny \nnázov:",
+    "question": "Zlúčenine vzorca CH2 = CH - C = CH2  priraďte správny systémový alebo t riviálny \nnázov:",
     "options": [
       "2-metyl -1,3-butadién (2 -metylbuta -1,3-dién)",
       "chloroprén",
@@ -9300,7 +9298,7 @@
       "nitropropán",
       "2-aminopropán",
       "sekundárny amín",
-      "primárny amín         96"
+      "primárny amín"
     ],
     "correct": [
       false,
@@ -9363,7 +9361,7 @@
   },
   {
     "number": 391,
-    "question": "je:",
+    "question": "H-C = O je:",
     "options": [
       "metanál",
       "acetaldehyd",
@@ -9417,7 +9415,7 @@
       "dihydroxyacetón",
       "oxozlúčenina",
       "aldehyd",
-      "2,3-dihyd roxypropanál       97",
+      "2,3-dihyd roxypropanál",
       "produktom redukcie glycerolu",
       "zlúčenina opticky aktívna",
       "zlúčenina obsahujúca jeden asymetrický atóm uhlíka v  molekule"
@@ -9492,7 +9490,7 @@
       "dáva vznik halogénderivátov alkénov",
       "vedie k zániku dvojitej väzby",
       "je elektrofilná adícia",
-      "začína adíciou protónu         98"
+      "začína adíciou protónu"
     ],
     "correct": [
       true,
@@ -9581,14 +9579,14 @@
     "number": 400,
     "question": "Adíciou chlorovodíka na 1 -butén a 2 -butén vznikne:",
     "options": [
-      "b)",
-      "d)  halogénalkán",
+      "NONE",
+      "NONE",
+      "NONE",
+      "halogénalkán",
       "2-chlórbután",
       "1-chlórbután",
       "opticky aktívna zlúčenina",
-      "zlúčenina s chirálnym atómom uhlíka",
-      "",
-      ""
+      "zlúčenina s chirálnym atómom uhlíka"
     ],
     "correct": [
       true,
@@ -9605,14 +9603,14 @@
     "number": 401,
     "question": "Reakcia CH≡CH + 2H2 \n  CH3-CH3  je:",
     "options": [
-      "redukc ia",
+      "redukcia",
       "katalyzovaná ušlachtilými kovmi",
       "radikálová adícia",
       "reakcia vzniku etánu",
       "dehydrogenácia",
       "hydrogenácia",
       "hydratácia",
-      "oxidácia       99"
+      "oxidácia"
     ],
     "correct": [
       true,
@@ -10085,14 +10083,14 @@
     "number": 421,
     "question": "Izobutyl, 1 -(2-metyl)propyl, je:",
     "options": [
-      "CH3-CH2-CH2-CH2-",
-      "c)",
-      "e) aryl      103",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "aryl",
       "alkyl",
       "radikál",
-      "jednoväzbová skupina",
-      "",
-      ""
+      "jednoväzbová skupina"
     ],
     "correct": [
       false,
@@ -10353,10 +10351,10 @@
       "CHCH  +  HBr    CH2-CHBr",
       "CHCH  +  Br2    Br2CH-CHBr2",
       "CHCH  +  2Br2    BrCH=CHBr",
-      "f)",
-      "h)",
-      "",
-      ""
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE"
     ],
     "correct": [
       true,
@@ -10373,14 +10371,14 @@
     "number": 433,
     "question": "Vyberte správne reakcie alebo reakčné schémy:",
     "options": [
-      "b)",
-      "d)",
-      "f) CaC2 +  H2O    C2H2  +  CaOH",
-      "CaC2 + 2H2O    C2H2  +  Ca(OH)2",
-      "",
-      "",
-      "",
-      ""
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE"
     ],
     "correct": [
       true,
@@ -10421,14 +10419,14 @@
     "number": 435,
     "question": "Vyberte správne reakcie alebo reakčné schémy:",
     "options": [
-      "b)",
-      "d)",
-      "f)",
-      "h)",
-      "",
-      "",
-      "",
-      ""
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE"
     ],
     "correct": [
       false,
@@ -10445,14 +10443,14 @@
     "number": 436,
     "question": "Ktoré schémy vystihujú vznik hlavného re akčného produktu substitučnej reakcie:",
     "options": [
-      "b)",
-      "d)",
-      "f)",
-      "h)            107",
-      "",
-      "",
-      "",
-      ""
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE"
     ],
     "correct": [
       false,
@@ -10469,14 +10467,14 @@
     "number": 437,
     "question": "Vyberte správne reakčné schémy:",
     "options": [
-      "b)",
-      "d)",
-      "f)",
-      "h)",
-      "",
-      "",
-      "",
-      ""
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE"
     ],
     "correct": [
       true,
@@ -10493,14 +10491,14 @@
     "number": 438,
     "question": "Vyberte správne reakcie:",
     "options": [
-      "CH3CHO + 2[Ag(NH3)2]+ + 3OH-    CH3COO- + 2Ag + 4 NH3 + 2 H2O",
-      "CH3CHO +  2[Ag(NH3)2]+ + 3OH-    CH3CH2OH  + 2Ag + 4 NH3 + 2 H2O",
-      "CH3CHO +  2[Ag(NH3)2]+ + 3OH-    CH3COO-  + 2Ag+ + 4 NH3 + 2 H2O",
-      "e)",
-      "g)",
-      "",
-      "",
-      ""
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE"
     ],
     "correct": [
       true,
@@ -10517,14 +10515,14 @@
     "number": 439,
     "question": "Vyberte správne reakcie:",
     "options": [
-      "b)",
-      "d)         108",
-      "f)",
-      "h)",
-      "",
-      "",
-      "",
-      ""
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE"
     ],
     "correct": [
       true,
@@ -10620,7 +10618,7 @@
       "je chlóretén",
       "je vinylchlorid",
       "je styrén",
-      "je etylchlorid         109"
+      "je etylchlorid"
     ],
     "correct": [
       true,
@@ -10716,7 +10714,7 @@
       "chlorid uhličitý",
       "metylénchlorid",
       "halogénalkán",
-      "prchavá kvapalina         110"
+      "prchavá kvapalina"
     ],
     "correct": [
       false,
@@ -10808,11 +10806,11 @@
       "-Br",
       "-CH2-CH3",
       "-F",
-      "e) -I",
+      "-CH-CH3-CH3",
+      "-I",
       "-OH",
       "-CH3",
-      "-NO2        111",
-      ""
+      "-NO2"
     ],
     "correct": [
       false,
@@ -10829,14 +10827,14 @@
     "number": 452,
     "question": "Acetyl je:",
     "options": [
-      "b) CH3-CO-",
-      "d) CH3-CO-O-",
+      "NONE",
+      "NONE",
+      "NONE",
+      "CH3-CO-O-",
       "-OC-CH3",
       "HC-CO-",
       "R-CO-",
-      "acyl odvodený od kyseliny octovej",
-      "",
-      ""
+      "acyl odvodený od kyseliny octovej"
     ],
     "correct": [
       false,
@@ -10932,7 +10930,7 @@
       "kyseliny buténdiovej vzniká kyselina jantárová",
       "kyseliny maleínovej vzniká kyselina buténdiová",
       "kyseliny pyrohroznovej vzniká kyselina mliečna",
-      "kyseliny ja blčnej vzniká kyselina vínna         112"
+      "kyseliny ja blčnej vzniká kyselina vínna"
     ],
     "correct": [
       false,
@@ -11021,14 +11019,14 @@
     "number": 460,
     "question": "Ktorý z uvedených alkoholov je veľmi jedovatý a spôsobuje oslepnutie:",
     "options": [
-      "CH3-CH2-OH",
-      "CH3OH",
-      "CH3-CH2-CH2-OH",
-      "e) metanol",
-      "C2H5OH",
-      "metylalkohol",
-      "",
-      ""
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE"
     ],
     "correct": [
       false,
@@ -11052,7 +11050,7 @@
       "acetály",
       "étery",
       "dioly",
-      "trioly       113"
+      "trioly"
     ],
     "correct": [
       true,
@@ -11093,14 +11091,14 @@
     "number": 463,
     "question": "K sekundárnym alkoholom patrí:",
     "options": [
-      "b) HO-CH2-CH2-OH",
-      "CH3(CH2)6CH2-OH",
-      "e) CH3CH2OH",
-      "g) cyklohexanol",
-      "benzylalkohol",
-      "",
-      "",
-      ""
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "cyklohexanol",
+      "benzylalkohol"
     ],
     "correct": [
       false,
@@ -11139,16 +11137,16 @@
   },
   {
     "number": 465,
-    "question": "Ktoré z nasledu júcich vzorcov zlúčenín odpovedajú primárnym alkoholom:",
+    "question": "Ktoré z nasledujúcich vzorcov zlúčenín odpovedajú primárnym alkoholom:",
     "options": [
-      "b)",
-      "d)        114",
-      "f)",
-      "h)  HO-CH2-CH2-OH",
-      "",
-      "",
-      "",
-      ""
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE"
     ],
     "correct": [
       true,
@@ -11244,7 +11242,7 @@
       "-M efektom -OH skupiny",
       "+M efektom -OH skupiny",
       "-I efektom -OH skupiny",
-      "+I efektom -OH skupiny         115"
+      "+I efektom -OH skupiny"
     ],
     "correct": [
       false,
@@ -11484,7 +11482,7 @@
       "má sladkú chuť",
       "je veľmi toxický",
       "sa používa v potravinárstve",
-      "vzniká kyslou ale bo alkalickou hydrolýzou etylénoxidu         117"
+      "vzniká kyslou ale bo alkalickou hydrolýzou etylénoxidu"
     ],
     "correct": [
       true,
@@ -11525,14 +11523,14 @@
     "number": 481,
     "question": "Určte všeobecný vzorec aldehydu:",
     "options": [
-      "b)",
-      "d)",
-      "R-O-R",
-      "R-OH",
-      "R-CHO",
-      "R-CO-O-R",
-      "",
-      ""
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE"
     ],
     "correct": [
       false,
@@ -11549,14 +11547,14 @@
     "number": 482,
     "question": "Z uvedených zlúčenín vyberte sekundárne alkoholy:",
     "options": [
-      "b) HO-CH2-CH2-OH",
-      "d) CH3-OH",
-      "f)  CH3-CH2-OH",
-      "h) CH2=CH -OH",
-      "",
-      "",
-      "",
-      ""
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE"
     ],
     "correct": [
       false,
@@ -11573,14 +11571,14 @@
     "number": 483,
     "question": "Z uvedených zl účenín vyberte vzorec p-krezolu:",
     "options": [
-      "b)",
-      "118",
-      "e)",
-      "g)",
-      "",
-      "",
-      "",
-      ""
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE"
     ],
     "correct": [
       false,
@@ -11649,7 +11647,7 @@
       "redukcii aldehydu",
       "hydrogenácii aldehydu",
       "redukcii Cu2+",
-      "tvorbe zrazeniny Cu2O        119",
+      "tvorbe zrazeniny Cu2O",
       "vzniku červenej zrazeniny oxidu meďného",
       "vzniku oxidu meďnatého",
       "na oxidácii Cu2+"
@@ -11717,14 +11715,14 @@
     "number": 489,
     "question": "Ktorá z uvedených zlúčenín je éter:",
     "options": [
-      "b)",
-      "d) (CH3)3CO-CH3",
-      "CH3-CH2-CO-O-CH3",
-      "CH3-O-CH3",
-      "CH3-CO-O-CO-CH3",
-      "C6H5-CH2-O-CH3",
-      "",
-      ""
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE"
     ],
     "correct": [
       true,
@@ -11748,7 +11746,7 @@
       "adíciou dvoch molekúl alko holu na aldehyd",
       "úplnou hydrolýzou acetálu",
       "aj intramolekulovou adíciou hydroxyskupiny molekuly glukózy, ktorá sa viaže na atóm  uhlíka C4 alebo C5, na voľnú aldehydovú skupinu molekuly",
-      "reakciou dvoch molekúl cyklických foriem monosacharidov       120"
+      "reakciou dvoch molekúl cyklických foriem monosacharidov"
     ],
     "correct": [
       true,
@@ -11763,7 +11761,7 @@
   },
   {
     "number": 491,
-    "question": "Pr i dôkaze aldehydu Schiffovým činidlom:",
+    "question": "Pri dôkaze aldehydu Schiffovým činidlom:",
     "options": [
       "sa vylúči Cu2+",
       "vzniká farbivo fuchsín",
@@ -11772,7 +11770,7 @@
       "sa vylúči oxid meďný",
       "vzniká zeleno sfarbený produkt",
       "sa viaže oxid siričitý na aldehyd",
-      "sa vylúč i červená zrazenina"
+      "sa vylúči červená zrazenina"
     ],
     "correct": [
       false,
@@ -11868,7 +11866,7 @@
       "fenylmetyl ketón",
       "acylpyrín",
       "anizol",
-      "fenylmetyléter         121"
+      "fenylmetyléter"
     ],
     "correct": [
       false,
@@ -11988,7 +11986,7 @@
       "1,4-dihydroxybenzén",
       "pyrogalol",
       "rezorcinol",
-      "hydrochinón       122"
+      "hydrochinón"
     ],
     "correct": [
       false,
@@ -12005,14 +12003,14 @@
     "number": 501,
     "question": "Vyberte reakcie alebo reakčné schémy, ktoré sú správne a ich produktom je žlto \nsfarbený jodoform:",
     "options": [
-      "CH3-CHO + 3 I2 + 4 KOH    CHI3 + HCOOK +3 KI + 3H2O",
-      "CH3OH + 2 I2 + 3 KOH    CH3I + 3KI + 2 H2O",
-      "CH3CH2OH + 4 I2 + 6 NaOH    CHI3 + HCOONa + 5NaI+ 5H2O",
-      "CH3-CO-CH3 + 3 I2 + 4KOH    CHI3 + CH3COOK + 3KI + 3H2O",
-      "f) CH4 + I2    CH3I + HI",
-      "h) CH3I + I2    CH2I2 + HI",
-      "",
-      ""
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE"
     ],
     "correct": [
       true,
@@ -12036,7 +12034,7 @@
       "je to etoxyetán",
       "je to dietyléter",
       "sa vyrába z etanolu",
-      "so vzduchom vytvára stabilnú zm es"
+      "so vzduchom vytvára stabilnú zmes"
     ],
     "correct": [
       false,
@@ -12125,14 +12123,14 @@
     "number": 506,
     "question": "Ktoré z uvedených zlúčenín p atria medzi amíny:",
     "options": [
-      "b)",
-      "CH3-CO-NH2",
-      "e) CH3-CH2-NH-CH3",
-      "g)",
-      "H2N-CO-NH2",
-      "",
-      "",
-      ""
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE"
     ],
     "correct": [
       false,
@@ -12171,7 +12169,7 @@
   },
   {
     "number": 508,
-    "question": "Zlúčenina  \n   je:",
+    "question": "Zlúčenina je:",
     "options": [
       "dimetyléter",
       "acetón",
@@ -12180,7 +12178,7 @@
       "látka, ktorá vzniká oxidáciou 1 -propanolu (propán -1-olu)",
       "propanón",
       "látka, ktorá vzniká hydr atáciou propénu",
-      "látka, ktorá vzniká oxidáciou 2 -propanolu (propán -2-olu)        124"
+      "látka, ktorá vzniká oxidáciou 2 -propanolu (propán -2-olu)"
     ],
     "correct": [
       false,
@@ -12197,14 +12195,14 @@
     "number": 509,
     "question": "Medzi terciárne alkoholy patrí:",
     "options": [
-      "b)",
-      "d) CH3CH2OH",
-      "f)  HO-CH2-CH2-OH",
-      "HO-CH2-CH2-CH2-OH",
-      "",
-      "",
-      "",
-      ""
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE"
     ],
     "correct": [
       false,
@@ -12243,7 +12241,7 @@
   },
   {
     "number": 511,
-    "question": "Oxidáciou  \n  vznikne:",
+    "question": "Oxidáciou vznikne:",
     "options": [
       "kyselina eténová",
       "kyselina octová",
@@ -12269,14 +12267,14 @@
     "number": 512,
     "question": "Redukciou propanalu vzniká:",
     "options": [
-      "b) CH3-CH2-CH2-OH",
-      "d) CH3-CH3",
-      "primárny alkohol       125",
+      "NONE",
+      "CH3-CH2-CH2-OH",
+      "NONE",
+      "CH3-CH3",
+      "primárny alkohol",
       "2-propanol (propán -2-ol)",
       "1-propanol (propán -1-ol)",
-      "vinylalkohol",
-      "",
-      ""
+      "vinylalkohol"
     ],
     "correct": [
       false,
@@ -12389,14 +12387,14 @@
     "number": 517,
     "question": "Primárny alkohol vzniká redukciou:",
     "options": [
-      "glycerolu",
-      "benzaldehydu",
-      "126",
-      "e)",
-      "g)",
-      "acetónu",
-      "",
-      ""
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE"
     ],
     "correct": [
       false,
@@ -12492,7 +12490,7 @@
       "oxidáciou chinónov",
       "dehydrogenáciou chinónov",
       "dehydrogenáciou zlúčenín s dvomi k eto skupinami",
-      "redukciou p-benzochinónu         127"
+      "redukciou p-benzochinónu"
     ],
     "correct": [
       false,
@@ -12579,7 +12577,7 @@
   },
   {
     "number": 525,
-    "question": "Éte ry:",
+    "question": "Étery:",
     "options": [
       "sú výbornými rozpúšťadlami lipidov",
       "tvoria epiméry",
@@ -12603,7 +12601,7 @@
   },
   {
     "number": 526,
-    "question": "Zlúčenina \n je:",
+    "question": "Zlúčenina je:",
     "options": [
       "cyklohexanón",
       "fenylmetylketón",
@@ -12612,7 +12610,7 @@
       "fenylmetylchinón",
       "acetofenón",
       "metylester kyseliny benzoovej",
-      "benzoan metylový         128"
+      "benzoan metylový"
     ],
     "correct": [
       false,
@@ -12627,7 +12625,7 @@
   },
   {
     "number": 527,
-    "question": "Zlúčenina \n   je:",
+    "question": "Zlúčenina je:",
     "options": [
       "kyselina sulfosalicylo vá",
       "kyselina p-aminobenzoová",
@@ -12651,7 +12649,7 @@
   },
   {
     "number": 528,
-    "question": "Zlúčenina  \n   je:",
+    "question": "Zlúčenina je:",
     "options": [
       "kyselina benzoová",
       "kyselina p-aminobenzoová",
@@ -12725,14 +12723,14 @@
     "number": 531,
     "question": "Vyberte vzorec, ktorý odpovedá acetálu alebo ketálu:",
     "options": [
-      "b)         129",
-      "d)",
-      "f)",
-      "h)",
-      "",
-      "",
-      "",
-      ""
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE"
     ],
     "correct": [
       false,
@@ -12749,14 +12747,14 @@
     "number": 532,
     "question": "Vyberte vzorec, ktorý odpovedá poloacetálu:",
     "options": [
-      "b)",
-      "d)  CH3-CH2-O-CH3",
-      "f)",
-      "h)           130",
-      "",
-      "",
-      "",
-      ""
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE"
     ],
     "correct": [
       false,
@@ -12776,11 +12774,11 @@
       "-NO2",
       "-NH2",
       "=NH",
-      "e) ≡N",
+      "NONE",
+      "≡N",
       "-N=N -",
       "-N+≡N",
-      "-N=O",
-      ""
+      "-N=O"
     ],
     "correct": [
       true,
@@ -12876,7 +12874,7 @@
       "majú kyslý charakter",
       "majú zásaditý charakter",
       "delíme na mono -, di-, triamíny, atď., podľa počtu aminoskupín v molekule",
-      "poznáme primárne, sekundárne a terciárne         131"
+      "poznáme primárne, sekundárne a terciárne"
     ],
     "correct": [
       false,
@@ -12899,8 +12897,8 @@
       "(CH3)3N",
       "H2N-(CH2)6-NH2",
       "C6H5-NH2",
-      "h) kadaverín",
-      ""
+      "NONE",
+      "kadaverín"
     ],
     "correct": [
       true,
@@ -12996,7 +12994,7 @@
       "môžu mať charakteristickú skupinu viazanú na primárny atóm uhlíka",
       "alifatické dávajú s kyselinou dusitou cez niekoľko medziproduktov alkoholy a dusík",
       "s kyselinou dusitou  dávajú  nitrózoamíny",
-      "môžu mať -NH2 skupinu viazanú na sekundárny atóm uhlíka       132"
+      "môžu mať -NH2 skupinu viazanú na sekundárny atóm uhlíka"
     ],
     "correct": [
       false,
@@ -13013,14 +13011,14 @@
     "number": 543,
     "question": "Ako všeobecný vzorec primárnych amínov môžeme označiť (Ar = aryl):",
     "options": [
-      "b)",
-      "d)",
-      "f)",
-      "h)",
-      "",
-      "",
-      "",
-      ""
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE"
     ],
     "correct": [
       true,
@@ -13131,7 +13129,7 @@
   },
   {
     "number": 548,
-    "question": "Zlúčenina \n  je:",
+    "question": "Zlúčenina je:",
     "options": [
       "p-fenyléndiamín",
       "p-aminofenol",
@@ -13209,7 +13207,7 @@
       "diazóniová soľ",
       "v zásaditom prostredí žltý",
       "acidobá zický indikátor",
-      "aromatická azozlúčenina       134",
+      "aromatická azozlúčenina",
       "oxidoredukčný indikátor",
       "látka prítomná v pomarančoch",
       "azofarbivo"
@@ -13329,7 +13327,7 @@
       "kyselina propénová",
       "kyselina asparágová",
       "kyselina glutámová",
-      "kyselina propánová       135",
+      "kyselina propánová",
       "kyselina maleínová",
       "kyselina  maslová",
       "kyselina malónová"
@@ -13419,16 +13417,16 @@
   },
   {
     "number": 560,
-    "question": "Kys elina metánová je:",
+    "question": "Kyselina metánová je:",
     "options": [
       "zlúčenina s redukčnými vlastnosťami",
       "zlúčenina s aldehydovou skupinou v molekule",
       "HCOOH",
       "HO-COOH",
-      "f)",
+      "NONE",
+      "NONE",
       "látka s baktericídnymi vlastnosťami",
-      "kyselina mravčia",
-      ""
+      "kyselina mravčia"
     ],
     "correct": [
       true,
@@ -13447,7 +13445,7 @@
     "options": [
       "alifatické a lkoholy",
       "cyklické étery",
-      "vyššie nasýtené alifatické karboxylové kyseliny       136",
+      "vyššie nasýtené alifatické karboxylové kyseliny",
       "vyššie nenasýtené alifatické karboxylové kyseliny",
       "estery vyšších karboxylových kyselín",
       "vyššie nasýtené acyklické karboxylové kyseliny",
@@ -13997,14 +13995,14 @@
     "number": 584,
     "question": "Kyselina salicylová má vzorec:",
     "options": [
-      "b)",
-      "C6H5-SO3H",
-      "HOOC -C6H4-O-CO-CH3      141",
-      "f)",
-      "h)",
-      "",
-      "",
-      ""
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE"
     ],
     "correct": [
       false,
@@ -14019,7 +14017,7 @@
   },
   {
     "number": 585,
-    "question": "Zlúčenina  \n  je kyselina, ktorá:",
+    "question": "Zlúčenina NONE je kyselina, ktorá:",
     "options": [
       "sa nachádza v citrusových plodoch",
       "zabraňuje zrážaniu krvi",
@@ -14096,7 +14094,7 @@
       "sú väčšinou slabé kyseliny",
       "sú väčšinou silné kyseliny",
       "sú amfolyty",
-      "majú dva rovnoc enné atómy kyslíka v ionizovanej karboxylovej skupine       142",
+      "majú dva rovnoc enné atómy kyslíka v ionizovanej karboxylovej skupine",
       "všetky patria medzi nepolárne zlúčeniny",
       "sú látky, ktorých rozpustnosť vo vode závisí od dĺžky uhľovodíkového reťazca",
       "asparágová a glutámová patria medzi hydroxykyseliny",
@@ -14196,7 +14194,7 @@
       "C2H5-COOH + NaOH    C2H5-COONa + H2O",
       "CH3-CH2-COOH + NaOH    CH3-CH2-CONa + H2O",
       "CH3-CH2-COH + NaOH    CH3-CH2-COONa + H2",
-      "esterifikácie         143"
+      "esterifikácie"
     ],
     "correct": [
       true,
@@ -14292,7 +14290,7 @@
       "CH3-CH2-COOH + CH3-CH2-OH    CH3-O-CH2-CH2-COOH + H2O",
       "CH3-CH2-COOH + CH3-CH2-OH    CH3-CH2-O-CO-CH2-CH3 + H2O",
       "CH3-COOH + CH3-CH2-CH2-OH    CH3-CO-O-CH2-CH2-CH3 + H2O",
-      "CH3-CH2-CH2-OH + HOOC -CH3    CH3-CO-O- CH2-CH2-CH3 + H2O        144"
+      "CH3-CH2-CH2-OH + HOOC -CH3    CH3-CO-O- CH2-CH2-CH3 + H2O"
     ],
     "correct": [
       true,
@@ -14388,7 +14386,7 @@
       "kyselinu s dvomi dvojitými väzbami",
       "kyselinu palmitoolejovú",
       "kyselinu oktadecénovú",
-      "C17H29COOH         145"
+      "C17H29COOH"
     ],
     "correct": [
       true,
@@ -14427,16 +14425,16 @@
   },
   {
     "number": 602,
-    "question": "Vypočítajte pH alebo \nkoncentráciu daného roztoku  (log 4 = 0,602;  log 2,5 = 0,398)",
+    "question": "Substitúcia vodíka halogénom v nasýtenom uhľovodíkovom reťazci karboxylovej kyseliny zvyšuje jej kyslosť:",
     "options": [
-      "pH = 10,602",
-      "c =",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "tým viac, čím sú atómy halogénu bližšie ku karboxylu",
+      "vplyvom -I efektu halogénu",
+      "tým viac, čím je halog én ďalej od karboxylu",
+      "účinkom záporného indukčného efektu halogénu",
+      "účinkom kladného indukčného efektu halogénu",
+      "účinkom mezomérneho efektu",
+      "tým viac, čím je viac atómov vodíka substituovaných halogénom",
+      "pretože hodnota pKa sa zvyšuje"
     ],
     "correct": [
       true,
@@ -14451,7 +14449,7 @@
   },
   {
     "number": 603,
-    "question": "Kyse lina vínna:",
+    "question": "Kyselina vínna:",
     "options": [
       "má jeden chirálny atóm uhlíka",
       "má dva chirálne atómy uhlíka",
@@ -14508,7 +14506,7 @@
       "je monokarboxylová kyselina",
       "je dikarboxylová kyselina",
       "je kyselina dihydroxybutándiová",
-      "je kyselina monohydroxybutándiová         146"
+      "je kyselina monohydroxybutándiová"
     ],
     "correct": [
       true,
@@ -14547,7 +14545,7 @@
   },
   {
     "number": 607,
-    "question": "Zlúčenina  \n  môže vznikať:",
+    "question": "Zlúčenina  môže vznikať:",
     "options": [
       "oxidáciou kyseliny pyrohroznovej",
       "redukciou kyseliny pyrohroznovej",
@@ -14628,7 +14626,7 @@
       "oxokyseliny",
       "halogénkyseliny",
       "halogen idy kyselín",
-      "estery kyselín         147"
+      "estery kyselín"
     ],
     "correct": [
       true,
@@ -14744,11 +14742,11 @@
       "H2N-CH2-COO-",
       "H2N-CH2-COOH",
       "H3N+-CH2-COOH",
-      "H3N+-CH2-COO-      148",
-      "f) HO-CH2-CH2-O-",
-      "h)",
-      "",
-      ""
+      "H3N+-CH2-COO-",
+      "NONE",
+      "HO-CH2-CH2-O-",
+      "NONE",
+      "NONE"
     ],
     "correct": [
       true,
@@ -14763,7 +14761,7 @@
   },
   {
     "number": 616,
-    "question": "Zlúčenina \n  má názov:",
+    "question": "Zlúčenina NONE  má názov:",
     "options": [
       "alanín",
       "serín",
@@ -14820,7 +14818,7 @@
       "je monoamin odikarboxylová kyselina",
       "má vzorec HOOC -CH2-CH2-CH2-COOH",
       "má vzorec HOOC -CH2-CH2-CH(NH2)-COOH",
-      "je kyslá aminokyselina         149"
+      "je kyslá aminokyselina"
     ],
     "correct": [
       false,
@@ -14909,14 +14907,14 @@
     "number": 622,
     "question": "Vyberte opticky aktívne zlúčeniny:",
     "options": [
-      "b)",
-      "d)",
-      "f)",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
       "cysteín",
-      "glukóza         150",
-      "",
-      "",
-      ""
+      "glukóza"
     ],
     "correct": [
       true,
@@ -14933,14 +14931,14 @@
     "number": 623,
     "question": "Vyberte správnu reakciu, ktorá vyjadruje oxidáciu kyseliny mliečnej:",
     "options": [
-      "b)",
-      "d)",
-      "CH3-CH(OH)-CH2-COOH    CH3-CO-CH2-COOH + 2H",
-      "CH3-CH(OH) -COOH    CH3-CO-COOH + 2H",
-      "CH3-CH(OH) -COOH + O2    HOOC -CO-COOH  + 4 H+",
-      "",
-      "",
-      ""
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE"
     ],
     "correct": [
       false,
@@ -15032,7 +15030,7 @@
       "kyselina 2 -aminoglutárová",
       "kyselina 3 -hydroxy -2-aminopropánová",
       "kyselina asparágová",
-      "kyselina glutámová       151",
+      "kyselina glutámová",
       "valín",
       "arginín",
       "lyzín",
@@ -15075,7 +15073,7 @@
   },
   {
     "number": 629,
-    "question": "Skupina \n   je:",
+    "question": "Skupina H - C = O je:",
     "options": [
       "v molekule kyseliny mravčej zodpovedá za jej oxidačné vlastnosti",
       "formaldehyd",
@@ -15099,7 +15097,7 @@
   },
   {
     "number": 630,
-    "question": "Skupina \nCO   je:",
+    "question": "Skupina NONE je:",
     "options": [
       "derivát kyseliny benzoovej",
       "acyl kyseliny benzoovej",
@@ -15151,7 +15149,7 @@
     "options": [
       "CH3-COAl3",
       "(CH3-COO)Al",
-      "(CH3-COO)2Al3      152",
+      "(CH3-COO)2Al3",
       "(CH3-COO)3Al",
       "(CH3-CO)3Al",
       "CH3-COOAl3",
@@ -15252,7 +15250,7 @@
       "ketón",
       "poloketál",
       "peroxid",
-      "funkčný derivát karboxylových kyselín         153"
+      "funkčný derivát karboxylových kyselín"
     ],
     "correct": [
       false,
@@ -15341,14 +15339,14 @@
     "number": 640,
     "question": "Amid kyseliny má všeobecný vzorec:",
     "options": [
-      "b) R-COO -NH2",
+      "NONE",
+      "R-COO -NH2",
       "R-CO-NH2",
       "R-NH-R",
       "R-CO-NH-CO-R",
       "R-CO-NO2",
-      "h) R-COONH",
-      "",
-      ""
+      "NONE",
+      "R-COONH"
     ],
     "correct": [
       false,
@@ -15372,7 +15370,7 @@
       "reakciou kyseliny salicylovej s acetylchloridom",
       "esterifikáciou kyseliny salicylov ej s etanolom",
       "esterifikáciou -COOH skupiny kyseliny salicylovej",
-      "esterifikáciou fenolového hydroxylu kyseliny salicylovej s kyselinou octovou       154"
+      "esterifikáciou fenolového hydroxylu kyseliny salicylovej s kyselinou octovou"
     ],
     "correct": [
       false,
@@ -15468,7 +15466,7 @@
       "z etanolu a kyseliny metánovej",
       "z kyseliny octovej a kyseliny mravčej",
       "esterifikáciou",
-      "z acetylchloridu a etanolu         155"
+      "z acetylchloridu a etanolu"
     ],
     "correct": [
       false,
@@ -15531,7 +15529,7 @@
   },
   {
     "number": 648,
-    "question": "Zlúčenina \n   je:",
+    "question": "Zlúčenina NONE je:",
     "options": [
       "etylfosfán",
       "etylester kyseliny fosforečnej",
@@ -15588,7 +15586,7 @@
       "obsahuje v molekule pyrimidínový kruh",
       "sa odvodzuje od purínových zásad",
       "je derivát kyseliny močovej",
-      "je základ tzv. barbiturátov, ktoré sa používajú v medicíne ako hypnotiká a sedatíva       156"
+      "je základ tzv. barbiturátov, ktoré sa používajú v medicíne ako hypnotiká a sedatíva"
     ],
     "correct": [
       false,
@@ -15684,7 +15682,7 @@
       "octan etylový",
       "acetylchlorid",
       "kyselinu pyrohroznovú",
-      "acetamid         157"
+      "acetamid"
     ],
     "correct": [
       true,
@@ -15701,14 +15699,14 @@
     "number": 655,
     "question": "Acetyl je:",
     "options": [
-      "b)",
-      "d) CH3-COOH",
+      "NONE",
+      "NONE",
+      "NONE",
+      "CH3-COOH",
       "skupina, ktorá vznikne z kyseliny octovej po odtrhnutí skupiny -OH",
       "skupina, ktorá vznikne po odtrhnutí atómu vodíka z karboxylovej skupiny kyseliny  etánovej",
       "synonymum pre acyl",
-      "skratka pre kyselinu octovú",
-      "",
-      ""
+      "skratka pre kyselinu octovú"
     ],
     "correct": [
       false,
@@ -15845,14 +15843,14 @@
     "number": 661,
     "question": "Amid kyseliny octovej je:",
     "options": [
-      "b) CH3-CO-NH2",
+      "NONE",
+      "CH3-CO-NH2",
       "funkčný derivát kyseliny etánovej",
       "CH3-COO -NH2",
-      "f) CH3-CO-NO2",
+      "NONE",
+      "CH3-CO-NO2",
       "glycín",
-      "CH3-CH2-CO-NH2",
-      "",
-      ""
+      "CH3-CH2-CO-NH2"
     ],
     "correct": [
       false,
@@ -15867,7 +15865,7 @@
   },
   {
     "number": 662,
-    "question": "Hydrolýzou zlúčeniny \n  vzniká:",
+    "question": "Hydrolýzou zlúčeniny NONE vzniká:",
     "options": [
       "etanol",
       "kyselina octová",
@@ -15900,7 +15898,7 @@
       "benzoylchlorid",
       "kyselina metánová",
       "kyselina benzoová",
-      "benzén         159"
+      "benzén"
     ],
     "correct": [
       true,
@@ -15965,14 +15963,14 @@
     "number": 666,
     "question": "Etylester kyseliny trihydrogenfosforečnej má vzorec:",
     "options": [
-      "b) CH3-CH2-O-PO3H",
+      "NONE",
+      "CH3-CH2-O-PO3H",
       "CH3-CH2-O-PO3H2",
       "CH3-CO-O-PO3H2",
       "CH3-CH2-O-PO4H2",
       "CH3-CO-O-PO4H2",
       "CH3-O-PO3H2",
-      "CH3-CH2-PO3H2",
-      ""
+      "CH3-CH2-PO3H2"
     ],
     "correct": [
       true,
@@ -16017,7 +16015,7 @@
       "je zlúčenina vzorca CH3-(CH2)14-COOH",
       "je zlúčenina vzorca CH3-(CH2)16-COOH",
       "je kyselina hexade kánová",
-      "je nasýtená vyššia karboxylová kyselina       160",
+      "je nasýtená vyššia karboxylová kyselina",
       "ako aj kyselina steárová majú 16 uhlíkov",
       "je 18 uhlíková karboxylová kyselina",
       "býva súčasťou triacylglycerolov"
@@ -17525,14 +17523,14 @@
     "number": 731,
     "question": "Vyberte vzorec imidazolu:",
     "options": [
-      "b)",
-      "d)",
-      "173",
-      "CH3-N=N -CH3",
-      "h)",
-      "",
-      "",
-      ""
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE",
+      "NONE"
     ],
     "correct": [
       false,
@@ -18723,16 +18721,16 @@
   },
   {
     "number": 781,
-    "question": "Základ pre delenie na ( -)glukózu a (+)glukózu je:",
+    "question": "Základ pre delenie na (-)glukózu a (+)glukózu je:",
     "options": [
       "konfigurácia na poslednom chirálnom uhlíku",
       "konfigurácia na prvom chirálnom uhlíku",
       "smer otáčania roviny polarizovaného svetla",
-      "poloha hydroxylovej skupiny na",
-      "",
-      "",
-      "",
-      ""
+      "poloha hydroxylovej skupiny na 3. uhlíku",
+      "poloha vodíka na anomérnom uhlíku",
+      "poloha -OH skupiny na anomérnom uhlíku",
+      "poloha -OH skupiny na 4. uhlíku",
+      "epiméria"
     ],
     "correct": [
       false,
@@ -18804,7 +18802,7 @@
       "glykogén",
       "glukóza -6-fosfát",
       "hroznový cukor",
-      "fruktóza a jej fosfore čné estery         184"
+      "fruktóza a jej fosfore čné estery"
     ],
     "correct": [
       true,
@@ -18924,7 +18922,7 @@
       "všetky monosacharidy, ktoré sú stavebnou zložkou živej hmoty, sú opticky aktívne látky",
       "účinkom  enzýmov alkoholového kvasenia sa štiepia len L -formy sacharidov",
       "monosacharidy nachádzajúce sa v živej hmote otáčajú rovinu polarizovaného svetla len  doľava",
-      "glyceraldehyd sa vyskytuje v štyroch stereoizoméroch         185"
+      "glyceraldehyd sa vyskytuje v štyroch stereoizoméroch"
     ],
     "correct": [
       true,
@@ -19044,7 +19042,7 @@
       "kondenzáciou dvoch molekúl glukózy",
       "pri reakcii manózy s Fehlingovým činidlom",
       "redukciou aldehydovej skupiny manózy na hydroxylovú skupinu",
-      "hydrogenáciou aldehydovej skupin y manózy na karboxylovú skupinu         186"
+      "hydrogenáciou aldehydovej skupin y manózy na karboxylovú skupinu"
     ],
     "correct": [
       false,
@@ -19065,10 +19063,10 @@
       "glucitolu",
       "kyseline aldónovej",
       "ketohexóze",
-      "produktu oxidácie glucitolu (do",
-      "",
-      "",
-      ""
+      "produktu oxidácie glucitolu (do 1. stupňa)",
+      "produktu hydrolýzy laktózy",
+      "produktu hydrolýzy DNA",
+      "produktu hydrolýzy celulózy"
     ],
     "correct": [
       true,
@@ -19589,14 +19587,14 @@
     "number": 817,
     "question": "Deoxyribóza zúčastňujúca sa výstavby DNA:",
     "options": [
-      "je redukovaná na",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "je redukovaná na 1. atóme uhlíka",
+      "je redukovaná na 2. atóme uhlíka",
+      "reaguje s kyselinou fosforečnou za vzniku nukleotidu",
+      "reaguje v organizme s ura cilom za vzniku nukleozidu",
+      "môže byť súčasťou zložených lipidov",
+      "s guanínom sa viaže N -glykozidovou väzbou",
+      "s cytozínom sa viaže O -glykozidovou väzbou",
+      "sa vo forme furanózy viaže s purínovou alebo pyrimidínovou bázou"
     ],
     "correct": [
       false,
@@ -21130,9 +21128,9 @@
       "aminokyselina s jedným chirálnym uhlíkom v molekule",
       "neutrálna aminokyselina",
       "súčasťou bielkovín a v  organizme človeka sa nachádza ako L -aminokyselina",
-      "g) u človeka vo forme D -aminokyseliny",
-      "aminokyselina, ktorá nemá chirálny uhlík v molekule",
-      ""
+      "NONE",
+      "u človeka vo forme D -aminokyseliny",
+      "aminokyselina, ktorá nemá chirálny uhlík v molekule"
     ],
     "correct": [
       true,
@@ -21201,7 +21199,7 @@
       "sa v zložkách potravy v tráviacom trakte štiepi napr. pepsínom",
       "dá sa dokázať Fehlingovou reakciou",
       "nenachádza sa v dipeptidoch",
-      "spája aminokyseliny v bielkovinách       205",
+      "spája aminokyseliny v bielkovinách",
       "je väzba  -CO-NH-",
       "tvorí sa v procese transkripcie v jadre",
       "tvorí sa v procese translácie pri proteosyntéze"
